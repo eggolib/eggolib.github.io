@@ -2,7 +2,7 @@
 title: Action on Block Place (Power Types)
 date: 2022-07-13
 search:
-    boost: 5,
+    boost: 5
 ---
 
 #   Action on Block Place
