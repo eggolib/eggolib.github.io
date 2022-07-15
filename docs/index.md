@@ -12,7 +12,7 @@ If you have any questions, feel free to DM me in Discord *(`eggohito#9048`)*, me
 
 
 
-[documentation for the Origins mod]: https://origins.readthedocs.io/en/1.4.1
+[documentation for the Origins mod]: https://origins.readthedocs.io/en/latest
 [Origins Discord server]: https://discord.com/invite/4mTMHu3
 [discussion]: https://github.com/eggohito/eggolib/discussions/new
 [issue]: https://github.com/eggohito/eggolib/issues/new
