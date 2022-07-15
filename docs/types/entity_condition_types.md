@@ -23,5 +23,5 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 
 
 
-[object]: https://origins.readthedocs.io/en/1.4.1/types/data_types/object
-[Origins/Apoli's entity condition types]: https//origins.readthedocs.io/en/1.4.1/types/entity_condition_types
+[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[Origins/Apoli's entity condition types]: https//origins.readthedocs.io/en/latest/types/entity_condition_types

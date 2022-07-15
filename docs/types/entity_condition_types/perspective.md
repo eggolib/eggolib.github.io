@@ -53,4 +53,4 @@ Field | Type | Default | Description
 [Entity Condition Type]: ../entity_condition_types.md
 [Perspective]: ../data_types/perspective.md
 [Perspectives]: ../data_types/perspective.md
-[Array]: https://origins.readthedocs.io/en/1.4.1/types/data_types/array
+[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array

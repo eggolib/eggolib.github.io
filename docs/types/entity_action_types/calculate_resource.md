@@ -39,6 +39,6 @@ This example will multiply the value of the `example:resource_a` *(`data/example
 
 
 [Entity Action Type]: ../entity_action_types.md
-[Resource (Power Type)]: https://origins.readthedocs.io/en/1.4.1/types/power_types/resource
-[Identifier]: https://origins.readthedocs.io/en/1.4.1/types/data_types/identifier
+[Resource (Power Type)]: https://origins.readthedocs.io/en/latest/types/power_types/resource
+[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
 [Math Operation]: ../data_types/math_operation.md

@@ -64,6 +64,6 @@ Field | Type | Default | Description
 
 
 [Meta Action Type]: ../meta_action_types.md
-[Action Type]: https://origins.readthedocs.io/en/1.4.1/types/action_types
+[Action Type]: https://origins.readthedocs.io/en/latest/types/action_types
 [Scoreboard]: ../data_types/scoreboard.md
-[Integer]: https://origins.readthedocs.io/en/1.4.1/types/data_types/integer
+[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer

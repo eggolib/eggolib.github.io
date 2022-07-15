@@ -23,5 +23,5 @@ For example, if you have a field which requires an **[entity action type]** and 
 
 
 [entity action type]: entity_action_types.md
-[And (Meta Action Type)]: https://origins.readthedocs.io/en/1.4.1/types/meta_action_types/and
-[Origins/Apoli's meta action types]: https://origins.readthedocs.io/en/1.4.1/types/meta_action_types
+[And (Meta Action Type)]: https://origins.readthedocs.io/en/latest/types/meta_action_types/and
+[Origins/Apoli's meta action types]: https://origins.readthedocs.io/en/latest/types/meta_action_types

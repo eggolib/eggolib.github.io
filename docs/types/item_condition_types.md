@@ -21,6 +21,6 @@ Item condition types operate on an `ItemStack`. These are available to power/act
 
 
 
-[object]: https://origins.readthedocs.io/en/1.4.1/types/data_types/object
-[Origins/Apoli's item condition types]: https://origins.readthedocs.io/en/1.4.1/types/item_condition_types
+[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[Origins/Apoli's item condition types]: https://origins.readthedocs.io/en/latest/types/item_condition_types
 

@@ -20,14 +20,11 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Change Health**](entity_action_types/change_health.md)
 * [**Change Insomnia Ticks**](entity_action_types/change_insomnia_ticks.md)
 * [**Close Screen**](entity_action_types/close_screen.md)
-* [**Drop Inventory**](entity_action_types/drop_inventory.md)
-* [**Modify Inventory**](entity_action_types/modify_inventory.md)
 * [**Open Inventory**](entity_action_types/open_inventory.md)
 * [**Remove Power**](entity_action_types/remove_power.md)
-* [**Replace Inventory**](entity_action_types/replace_inventory.md)
 * [**Set Perspective**](entity_action_types/set_perspective.md)
 
 
 
-[object]: https://origins.readthedocs.io/en/1.4.1/types/data_types/object
-[Origins/Apoli's entity action types]: https://origins.readthedocs.io/en/1.4.1/types/entity_action_types
+[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[Origins/Apoli's entity action types]: https://origins.readthedocs.io/en/latest/types/entity_action_types

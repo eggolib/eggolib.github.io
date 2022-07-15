@@ -80,8 +80,8 @@ Field | Type | Default | Description
 
 
 [Power Type]: ../power_types.md
-[String]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
+[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
 [Container Type]: https://origins.readthedocs.io/en/latest/misc/extras/container_type/
-[Boolean]: https://origins.readthedocs.io/en/1.4.1/types/data_types/boolean
+[Boolean]: https://origins.readthedocs.io/en/latest/types/data_types/boolean
 [Item Condition Type]: ../item_condition_types.md
-[Key]: https://origins.readthedocs.io/en/1.4.1/types/data_types/key
+[Key]: https://origins.readthedocs.io/en/latest/types/data_types/key

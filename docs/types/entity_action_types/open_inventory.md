@@ -38,4 +38,4 @@ This example will open the inventory of the `example:extra_inventory` *(`data/ex
 
 
 [Entity Action Type]: ../entity_action_types.md
-[Identifier]: https://origins.readthedocs.io/en/1.4.1/types/data_types/identifier
+[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier

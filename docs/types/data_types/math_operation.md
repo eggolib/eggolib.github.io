@@ -28,5 +28,5 @@ Value      | Description
 
 
 [Data Type]: ../data_types.md
-[string]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
-[integer]: https://origins.readthedocs.io/en/1.4.1/types/data_types/integer
+[string]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer

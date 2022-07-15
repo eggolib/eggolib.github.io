@@ -20,5 +20,5 @@ Damage condition types operate on a `Pair<DamageSource, Float>`, allowing to che
 
 
 
-[object]: https://origins.readthedocs.io/en/1.4.1/types/data_types/object
-[Origins/Apoli's damage condition types]: https://origins.readthedocs.io/en/1.4.1/types/damage_condition_types
+[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[Origins/Apoli's damage condition types]: https://origins.readthedocs.io/en/latest/types/damage_condition_types

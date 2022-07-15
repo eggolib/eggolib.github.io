@@ -54,7 +54,7 @@ Field | Type | Default | Description
 
 
 [Damage Condition Type]: ../damage_condition_types.md
-[Identifier]: https://origins.readthedocs.io/en/1.4.1/types/data_types/identifier
-[Identifiers]: https://origins.readthedocs.io/en/1.4.1/types/data_types/identifier
-[Array]: https://origins.readthedocs.io/en/1.4.1/types/data_types/array
-[String]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
+[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[Identifiers]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[String]: https://origins.readthedocs.io/en/latest/types/data_types/string

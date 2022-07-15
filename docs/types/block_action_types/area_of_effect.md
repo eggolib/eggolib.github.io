@@ -68,6 +68,6 @@ Field | Type | Default | Description
 
 
 [Block Action Type]: ../block_action_types.md
-[Integer]: https://origins.readthedocs.io/en/1.4.1/types/data_types/integer
-[String]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
+[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
 [Block Condition Type]: ../block_condition_types.md

@@ -56,13 +56,13 @@ Field | Type | Default | Description
 
 
 [Inventory (Power Type)]: ../power_types/inventory.md
-[Origins/Apoli's Inventory (Power Type)]: https://origins.readthedocs.io/en/1.4.1/types/power_types/inventory/
+[Origins/Apoli's Inventory (Power Type)]: https://origins.readthedocs.io/en/latest/types/power_types/inventory/
 [Entity Action Type]: ../entity_action_types.md
 [Inventory Type]: https://origins.readthedocs.io/en/latest/misc/extras/inventory_type
-[Item Action Type]: https://origins.readthedocs.io/en/1.4.1/types/item_action_types
+[Item Action Type]: https://origins.readthedocs.io/en/latest/types/item_action_types
 [Item Condition Type]: ../item_condition_types.md
-[Identifier]: https://origins.readthedocs.io/en/1.4.1/types/data_types/identifier
-[Identifiers]: https://origins.readthedocs.io/en/1.4.1/types/data_types/identifier
-[Array]: https://origins.readthedocs.io/en/1.4.1/types/data_types/array
-[Positioned Item Stack Slots]: https://origins.readthedocs.io/en/1.4.1/misc/extras/positioned_item_stack_slots
-[Item Stack]: https://origins.readthedocs.io/en/1.4.1/types/data_types/item_stack
+[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[Identifiers]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[Positioned Item Stack Slots]: https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots
+[Item Stack]: https://origins.readthedocs.io/en/latest/types/data_types/item_stack

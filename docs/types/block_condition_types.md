@@ -20,5 +20,5 @@ Block condition types operate on a `CachedBlockPosition`, essentially a combinat
 * [**Air**](block_condition_types/air.md)
 
 
-[object]: https://origins.readthedocs.io/en/1.4.1/types/data_types/object
-[Origins/Apoli's block condition types]: https://origins.readthedocs.io/en/1.4.1/types/block_condition_types
+[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[Origins/Apoli's block condition types]: https://origins.readthedocs.io/en/latest/types/block_condition_types

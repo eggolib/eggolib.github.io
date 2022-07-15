@@ -22,4 +22,4 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 
 
 
-[Origins/Apoli's data types]: https://origins.readthedocs.io/en/1.4.1/types/data_types
+[Origins/Apoli's data types]: https://origins.readthedocs.io/en/latest/types/data_types

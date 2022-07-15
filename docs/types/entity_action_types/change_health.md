@@ -52,5 +52,5 @@ Field | Type | Default | Description
 
 
 [Entity Action Type]: ../entity_action_types.md
-[Float]: https://origins.readthedocs.io/en/1.4.1/types/data_types/float
-[String]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
+[Float]: https://origins.readthedocs.io/en/latest/types/data_types/float
+[String]: https://origins.readthedocs.io/en/latest/types/data_types/string

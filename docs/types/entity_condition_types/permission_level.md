@@ -54,5 +54,5 @@ Field | Type | Default | Description
 
 
 [Entity Condition Type]: ../entity_condition_types.md
-[Comparison]: https://origins.readthedocs.io/en/1.4.1/types/data_types/comparison
-[Integer]: https://origins.readthedocs.io/en/1.4.1/types/data_types/integer
+[Comparison]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
+[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer

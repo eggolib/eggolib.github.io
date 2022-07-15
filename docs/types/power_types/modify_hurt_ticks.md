@@ -67,9 +67,9 @@ Field | Type | Default | Description
 
 
 [Power Type]: ../power_types.md
-[Bi-entity Action Type]: https://origins.readthedocs.io/en/1.4.1/types/bientity_action_types
-[Bi-entity Condition Type]: https://origins.readthedocs.io/en/1.4.1/types/bientity_condition_types
+[Bi-entity Action Type]: https://origins.readthedocs.io/en/latest/types/bientity_action_types
+[Bi-entity Condition Type]: https://origins.readthedocs.io/en/latest/types/bientity_condition_types
 [Damage Condition Type]: ../damage_condition_types.md
-[Attribute Modifier]: https://origins.readthedocs.io/en/1.4.1/types/data_types/attribute_modifier
-[Attribute Modifiers]: https://origins.readthedocs.io/en/1.4.1/types/data_types/attribute_modifier
-[Array]: https://origins.readthedocs.io/en/1.4.1/types/data_types/array
+[Attribute Modifier]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier
+[Attribute Modifiers]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier
+[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array

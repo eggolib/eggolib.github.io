@@ -74,11 +74,11 @@ Field | Type | Default | Description
 
 [Power Type]: ../power_types.md
 [Entity Action Type]: ../entity_action_types.md
-[Item Action Type]: https://origins.readthedocs.io/en/1.4.1/types/item_action_types
+[Item Action Type]: https://origins.readthedocs.io/en/latest/types/item_action_types
 [Block Action Type]: ../block_action_types.md
 [Item Condition Type]: ../item_condition_types.md
 [Block Condition Type]: ../block_condition_types.md
-[Array]: https://origins.readthedocs.io/en/1.4.1/types/data_types/array
-[Strings]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
-[Item Stack]: https://origins.readthedocs.io/en/1.4.1/types/data_types/item_stack
+[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[Strings]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[Item Stack]: https://origins.readthedocs.io/en/latest/types/data_types/item_stack
 

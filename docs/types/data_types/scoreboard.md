@@ -56,4 +56,4 @@ Field | Type | Default | Description
 
 
 [Data Type]: ../data_types.md
-[String]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
+[String]: https://origins.readthedocs.io/en/latest/types/data_types/string

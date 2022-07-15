@@ -37,7 +37,7 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
 
 
 
-[object]: https://origins.readthedocs.io/en/1.4.1/types/data_types/object
-[entity condition types]: https://origins.readthedocs.io/en/1.4.1/types/entity_condition_types
-[Power (JSON Format)]: https://origins.readthedocs.io/en/1.4.1/json/power
-[Origins/Apoli's power types]: https://origins.readthedocs.io/en/1.4.1/types/power_types
+[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[entity condition types]: https://origins.readthedocs.io/en/latest/types/entity_condition_types
+[Power (JSON Format)]: https://origins.readthedocs.io/en/latest/json/power
+[Origins/Apoli's power types]: https://origins.readthedocs.io/en/latest/types/power_types

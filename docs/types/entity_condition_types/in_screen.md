@@ -49,7 +49,7 @@ Field | Type | Default | Description
 
 
 [Entity Condition Type]: ../entity_condition_types.md
-[String]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
-[Strings]: https://origins.readthedocs.io/en/1.4.1/types/data_types/string
-[Array]: https://origins.readthedocs.io/en/1.4.1/types/data_types/array
+[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[Strings]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
 [In-Game Screen Class (Class Data Registry)]: ../../misc/class_data_registries/in-game_screen_class.md
