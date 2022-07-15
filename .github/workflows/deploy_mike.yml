@@ -47,4 +47,6 @@ jobs:
         id: fetched_data
 
       - name: Deploy Mike
-        run: mike deploy --push ${{ steps.fetched_data.outputs.branch }}
+        run: |
+          git pull
+          mike deploy --push ${{ steps.fetched_data.outputs.branch }}
