@@ -1,0 +1,55 @@
+site_name: eggolib Documentation
+
+nav:
+  - Home: index.md
+
+extra:
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: deep purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: orange
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.expand
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+    - search.share
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      separator: "_"
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - meta
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
