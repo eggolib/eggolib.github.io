@@ -1,8 +1,0 @@
-table {
-    table-layout: fixed;
-    overflow: scroll;
-}
-
-th:nth-child(-n+2), td:nth-child(-n+2) {
-    width: 25%;
-}
