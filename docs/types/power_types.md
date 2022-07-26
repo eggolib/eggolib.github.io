@@ -16,6 +16,11 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
     See the documentation for **[Origins/Apoli's power types]** for a list of power types added by Origins/Apoli.
 
 
+### Regular types
+
+* [**Inventory**](power_types/inventory.md)
+
+
 ### Action-related
 
 * [**Action on Block Place**](power_types/action_on_block_place.md)
