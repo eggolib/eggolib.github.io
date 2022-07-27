@@ -19,6 +19,7 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
 ### Regular types
 
 * [**Inventory**](power_types/inventory.md)
+* [**Invisibility**](power_types/invisibility.md)
 
 
 ### Action-related
