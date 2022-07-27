@@ -20,6 +20,7 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
 
 * [**Inventory**](power_types/inventory.md)
 * [**Invisibility**](power_types/invisibility.md)
+* [**Model Flip**](power_types/model_flip.md)
 
 
 ### Action-related
