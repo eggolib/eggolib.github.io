@@ -7,7 +7,7 @@ date: 2022-07-14
 
 **[Entity Action Type]**
 
-Drops the item(s) from either the entity's inventory or a power that uses the **[Inventory (Power Type)]** (or **[Origins/Apoli's Inventory (Power Type)]**).
+Drops the item(s) from either the entity's inventory or a power that uses the **[Inventory (Power Type)]** or **[Origins/Apoli's Inventory (Power Type)]**.
 
 Type ID: `eggolib:drop_inventory`
 
@@ -23,6 +23,7 @@ Field | Type | Default | Description
 `slot` | **[Identifier]** | *optional* | If specified, only items in the designated slot will be dropped. See **[Positioned Item Stack Slots]** for possible values.
 `slots` | **[Array]** of **[Identifiers]** | *optional* | If specified, only items in the designated slots will be dropped. See **[Positioned Item Stack Slots]** for possible values.
 `power` | **[Identifier]** | *optional* | If specified and if `inventory_type` is set to `"power"`, the items in the inventory of this power will be dropped instead of the items in the entity's inventory.
+`amount` | **[Integer]** | *optional* | If specified, the affected items will be split by this amount.
 
 
 ### Examples
@@ -54,6 +55,19 @@ Field | Type | Default | Description
     This example will drop items from the inventory of the entity only if those items have an amount of 10 or greater.
 
 
+=== "Example #3"
+
+    ``` json
+    "entity_action": {
+        "type": "eggolib:drop_inventory",
+        "slot": "weapon.mainhand",
+        "amount": 16
+    }
+    ```
+
+    This example will split the item from the entity's mainhand slot by 16 and drop it. For a further explanation, if the item from the entity's mainhand slot has a count of 64, only 16 of it will be dropped, making the item have a remainder of 48. *(64 - 16 = 48)*
+
+
 
 [Inventory (Power Type)]: ../power_types/inventory.md
 [Origins/Apoli's Inventory (Power Type)]: https://origins.readthedocs.io/en/latest/types/power_types/inventory/
@@ -66,3 +80,4 @@ Field | Type | Default | Description
 [Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
 [Positioned Item Stack Slots]: https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots
 [Item Stack]: https://origins.readthedocs.io/en/latest/types/data_types/item_stack
+[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
