@@ -16,6 +16,11 @@ For example, if you have a field that requires an **[entity condition type]** an
     See the documentation for **[Origins/Apoli's meta condition types]** for a list of meta condition types added by Origins/Apoli.
 
 
+### List
+
+* [**Chance**](meta_condition_types/chance.md)
+
+
 
 [entity condition type]: entity_condition_types.md
 [And (Meta Condition Type)]: https://origins.readthedocs.io/en/latest/types/meta_condition_types/and
