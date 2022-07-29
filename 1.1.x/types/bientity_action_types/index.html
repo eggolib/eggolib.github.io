@@ -13,7 +13,7 @@
     
     
       
-        <title>Meta Action Types - eggolib Documentation</title>
+        <title>Bi-entity Action Types - eggolib Documentation</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#meta_action_types" class="md-skip">
+        <a href="#bi-entity_action_types" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Meta Action Types
+              Bi-entity Action Types
             
           </span>
         </div>
@@ -336,11 +336,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../bientity_action_types/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Bi-entity Action Types
       </a>
+      
     </li>
   
 
@@ -378,52 +388,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Meta Action Types
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../meta_action_types/" class="md-nav__link">
         Meta Action Types
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#list" class="md-nav__link">
-    List
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -639,21 +608,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#list" class="md-nav__link">
-    List
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -666,17 +620,13 @@
                 
 
 
-<h1 id="meta_action_types">Meta Action Types</h1>
-<p>Meta action types are independent of the type they operate on, essentially combining or modifying other action types. The actions which are modified have to be of the type the field of the meta action type requires.</p>
-<p>For example, if you have a field which requires an <strong><a href="../entity_action_types/">entity action type</a></strong> and you plan to use the <strong><a href="https://origins.readthedocs.io/en/latest/types/meta_action_types/and">And (Meta Action Type)</a></strong>, the action type provided inside the aforementioned meta action type has to be an <strong><a href="../entity_action_types/">entity action type</a></strong>.</p>
+<h1 id="bi-entity_action_types">Bi-entity Action Types</h1>
+<p>Bi-entity action types operate on a <code>Pair&lt;Entity, Entity&gt;</code> or in simpler terms: an '<strong>actor</strong>' and a '<strong>target</strong>'. The '<strong>actor</strong>' and the '<strong>target</strong>' is determined by the used power type and can be swapped. These are available to power/action types that provides a <code>bientity_action</code> <strong><a href="https://origins.readthedocs.io/en/latest/types/data_types/object">object</a></strong> field.</p>
+<p>As a rule of thumb, the '<strong>actor</strong>' is usually the entity that invoked the action <em>(e.g: uses or attacks an entity)</em> while the '<strong>target</strong>' is the entity being targeted <em>(e.g: the entity being used or attacked).</em></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>See the documentation for <strong><a href="https://origins.readthedocs.io/en/latest/types/meta_action_types">Origins/Apoli's meta action types</a></strong> for a list of meta action types added by Origins/Apoli.</p>
+<p>See the documentation for <strong><a href="https://origins.readthedocs.io/en/latest/types/bientity_action_types">Origins/Apoli's bi-entity action types</a></strong> for a list of bi-entity action types added by Origins/Apoli.</p>
 </div>
-<h3 id="list">List</h3>
-<ul>
-<li><a href="loop/"><strong>Loop</strong></a></li>
-</ul>
 
               
             </article>
@@ -699,7 +649,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../entity_action_types/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Entity Action Types" rel="prev">
+        <a href="../power_types/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Power Types" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -708,20 +658,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Entity Action Types
+              Power Types
             </div>
           </div>
         </a>
       
       
         
-        <a href="../bientity_condition_types/" class="md-footer__link md-footer__link--next" aria-label="Next: Bi-entity Condition Types" rel="next">
+        <a href="../block_action_types/" class="md-footer__link md-footer__link--next" aria-label="Next: Block Action Types" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Bi-entity Condition Types
+              Block Action Types
             </div>
           </div>
           <div class="md-footer__button md-icon">
