@@ -16,6 +16,11 @@ As a rule of thumb, the '**actor**' is usually the entity that invoked the actio
     See the documentation for **[Origins/Apoli's bi-entity action types]** for a list of bi-entity action types added by Origins/Apoli.
 
 
+### List
+
+* [**Damage**](bientity_action_types/damage.md)
+
+
 
 [object]: https://origins.readthedocs.io/en/latest/types/data_types/object
 [Origins/Apoli's bi-entity action types]: https://origins.readthedocs.io/en/latest/types/bientity_action_types
