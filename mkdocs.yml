@@ -6,6 +6,7 @@ nav:
     - Data Types: types/data_types.md
     - Power Types: types/power_types.md
   - Action Types:
+    - Bi-entity Action Types: types/bientity_action_types.md
     - Block Action Types: types/block_action_types.md
     - Entity Action Types: types/entity_action_types.md
     - Meta Action Types: types/meta_action_types.md
