@@ -9,7 +9,7 @@ date: 2022-07-14
 
 A registry mapping for client-side screen classes that are used in-game.
 
-Reference: [**`io.github.eggohito.eggolib.data.EggolibClassDataClient.java`**](https://github.com/eggohito/eggolib/blob/1.18.2/src/main/java/io/github/eggohito/eggolib/data/EggolibClassDataClient.java)
+Reference: [**`io.github.eggohito.eggolib.data.EggolibClassDataClient.java`**](https://github.com/eggohito/eggolib/blob/1.19/src/main/java/io/github/eggohito/eggolib/data/EggolibClassDataClient.java)
 
 
 ### Mapping
