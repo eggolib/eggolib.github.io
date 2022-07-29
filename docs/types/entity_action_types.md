@@ -22,6 +22,7 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Close Screen**](entity_action_types/close_screen.md)
 * [**Damage**](entity_action_types/damage.md)
 * [**Drop Inventory**](entity_action_types/drop_inventory.md)
+* [**Modify Health**](entity_action_types/modify_health.md)
 * [**Modify Inventory**](entity_action_types/modify_inventory.md)
 * [**Open Inventory**](entity_action_types/open_inventory.md)
 * [**Remove Power**](entity_action_types/remove_power.md)
