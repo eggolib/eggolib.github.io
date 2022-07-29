@@ -14,6 +14,7 @@ nav:
     - Damage Condition Types: types/damage_condition_types.md
     - Entity Condition Types: types/entity_condition_types.md
     - Item Condition Types: types/item_condition_types.md
+    - Meta Condition Types: types/meta_condition_types.md
   - Miscellaneous:
     - Class Data Registries: misc/class_data_registries.md
 
