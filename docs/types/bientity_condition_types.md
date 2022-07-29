@@ -14,6 +14,11 @@ Bi-entity condition types operate on a `Pair<Entity, Entity>` or in simpler term
     See the documentation for **[Origins/Apoli's bi-entity condition types]** for a list of bi-entity condition types added by Origins/Apoli.
 
 
+### List
+
+* [**Has Matching Tag**](bientity_condition_types/has_matching_tag.md)
+
+
 
 [object]: https://origins.readthedocs.io/en/latest/types/data_types/object
 [Origins/Apoli's bi-entity condition types]: https://origins.readthedocs.io/en/latest/types/bientity_condition_types
