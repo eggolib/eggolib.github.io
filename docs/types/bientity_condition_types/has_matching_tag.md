@@ -9,7 +9,7 @@ search:
 
 [**Bi-entity Condition Type**](../bientity_condition_types.md)
 
-Checks whether the actor entity and the target entity has matching tag(s).
+Checks whether the actor entity and the target entity has matching scoreboard tag(s) *(added via the `/tag` command).*
 
 Type ID: `eggolib:has_matching_tag`
 
