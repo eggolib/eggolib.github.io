@@ -22,7 +22,6 @@ nav:
 
 extra:
   version:
-    default: 1.1.x
     provider: mike
 
 extra_css:
