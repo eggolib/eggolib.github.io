@@ -58,7 +58,14 @@ theme:
 
 plugins:
   - search
-  - mike
+  - mike:
+      alias_type: copy
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 markdown_extensions:
   - toc:
