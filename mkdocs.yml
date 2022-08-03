@@ -29,7 +29,6 @@ extra_css:
 
 theme:
   name: material
-  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   palette:
