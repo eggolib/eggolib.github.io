@@ -22,6 +22,7 @@ nav:
 
 extra:
   version:
+    default: 1.1.x
     provider: mike
 
 extra_css:
@@ -58,14 +59,7 @@ theme:
 
 plugins:
   - search
-  - mike:
-      alias_type: copy
-      redirect_template: null
-      deploy_prefix: ''
-      canonical_version: null
-      version_selector: true
-      css_dir: css
-      javascript_dir: js
+  - mike
 
 markdown_extensions:
   - toc:
