@@ -53,7 +53,7 @@ Field | Type | Default | Description
 
 
 
-[Item Condition Type]
-[Identifier]
-[Comparison]
-[Integer]
+[Item Condition Type]: ../item_condition_types.md
+[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[Comparison]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
+[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
