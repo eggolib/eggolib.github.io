@@ -17,6 +17,7 @@ Item condition types operate on an `ItemStack`. These are available to power/act
 ### List
 
 * [**Block Item**](item_condition_types/block_item.md)
+* [**Enchantment**](item_condition_types/enchantment.md)
 * [**Tool**](item_condition_types/tool.md)
 
 
