@@ -27,6 +27,7 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
 
 * [**Action on Block Place**](power_types/action_on_block_place.md)
 * [**Action on Item Pickup**](power_types/action_on_item_pickup.md)
+* [**Action on Key Sequence**](power_types/action_on_key_sequence.md)
 
 
 ### Modifying types
