@@ -37,6 +37,7 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
 ### Preventing types
 
 * [**Prevent Block Place**](power_types/prevent_block_place.md)
+* [**Prevent Item Pickup**](power_types/prevent_item_pickup.md)
 * [**Prevent Item Use**](power_types/prevent_item_use.md)
 
 
