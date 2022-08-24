@@ -22,7 +22,7 @@ Field | Type | Default | Description
 `fail_action` | **[Entity Action Type]** | *optional* | If specified, this action will be executed if the player failed to press the specified keybinds in the specified sequence.
 `cooldown` | **[Integer]** | `0` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `hud_render` | **[HUD Render]** | `{"should_render": false}` | Determines how the cooldown for this power is visualized on the HUD.
-`keys` | **[Array ]**of **[Functional Keys]** | | Determines the keys to be used for completing the sequence.
+`keys` | **[Array]**of **[Functional Keys]** | | Determines the keys to be used for completing the sequence.
 `key_sequence` | **[Array]** of **[Keys]** | | Determines the sequence to be completed by the player.
 
 
