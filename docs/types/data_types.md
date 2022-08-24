@@ -16,6 +16,7 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 
 ### List
 
+* [**Key**](data_types/key.md)
 * [**Math Operation**](data_types/math_operation.md)
 * [**Perspective**](data_types/perspective.md)
 * [**Scoreboard**](data_types/scoreboard.md)
