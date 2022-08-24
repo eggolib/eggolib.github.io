@@ -27,7 +27,7 @@ Field | Type | Default | Description
 
     ``` json
     "keys": [
-        "key.forward
+        "key.forward"
     ]
     ```
 
