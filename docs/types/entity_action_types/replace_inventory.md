@@ -1,5 +1,5 @@
 ---
-title: Replace Inventory (Entity Action Types)
+title: Replace Inventory (Entity Action Type)
 date: 2022-07-14
 search:
     boost: 2

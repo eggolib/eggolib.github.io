@@ -1,5 +1,5 @@
 ---
-title: Loop (Meta Action Types)
+title: Loop (Meta Action Type)
 date: 2022-07-14
 search:
     boost: 2

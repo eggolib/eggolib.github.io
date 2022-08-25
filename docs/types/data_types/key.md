@@ -1,5 +1,5 @@
 ---
-title: Key (Data Types)
+title: Key (Data Type)
 date: 2022-08-24
 search:
     boost: 2

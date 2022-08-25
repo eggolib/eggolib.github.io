@@ -1,5 +1,5 @@
 ---
-title: Action on Key Sequence (Power Types)
+title: Action on Key Sequence (Power Type)
 date: 2022-08-24
 search:
     boost: 2

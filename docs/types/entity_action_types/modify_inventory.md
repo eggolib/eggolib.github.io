@@ -1,5 +1,5 @@
 ---
-title: Modify Inventory (Entity Action Types)
+title: Modify Inventory (Entity Action Type)
 date: 2022-07-14
 search:
     boost: 2

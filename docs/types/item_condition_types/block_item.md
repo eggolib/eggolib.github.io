@@ -1,5 +1,5 @@
 ---
-title: Block Item (Item Condition Types)
+title: Block Item (Item Condition Type)
 date: 2022-07-14
 search:
     boost: 2

@@ -1,5 +1,5 @@
 ---
-title: Air (Block Condition Types)
+title: Air (Block Condition Type)
 date: 2022-07-14
 search:
     boost: 2

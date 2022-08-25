@@ -1,5 +1,5 @@
 ---
-title: Modify Hurt Ticks (Power Types)
+title: Modify Hurt Ticks (Power Type)
 date: 2022-07-14
 search:
     boost: 2

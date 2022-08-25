@@ -1,5 +1,5 @@
 ---
-title: Prevent Block Place
+title: Prevent Block Place (Power Type)
 date: 2022-07-13
 search:
     boost: 2

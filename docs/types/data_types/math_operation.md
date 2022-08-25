@@ -1,5 +1,5 @@
 ---
-title: Math Operation (Data Types)
+title: Math Operation (Data Type)
 date: 2022-07-14
 search:
     boost: 2

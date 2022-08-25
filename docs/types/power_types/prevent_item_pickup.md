@@ -1,5 +1,5 @@
 ---
-title: Prevent Item Pickup (Power Types)
+title: Prevent Item Pickup (Power Type)
 date: 2022-08-24
 search:
     boost: 2

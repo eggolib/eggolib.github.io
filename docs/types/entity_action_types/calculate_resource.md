@@ -1,5 +1,5 @@
 ---
-title: Calculate Resource (Entity Action Types)
+title: Calculate Resource (Entity Action Type)
 date: 2022-07-14
 search:
     boost: 2

@@ -1,5 +1,5 @@
 ---
-title: Perspective (Data Types)
+title: Perspective (Data Type)
 date: 2022-07-14
 search:
     boost: 2

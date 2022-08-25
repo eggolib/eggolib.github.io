@@ -1,5 +1,5 @@
 ---
-title: Action on Item Pickup (Power Types)
+title: Action on Item Pickup (Power Type)
 date: 2022-08-24
 search:
     boost: 2

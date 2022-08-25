@@ -1,5 +1,5 @@
 ---
-title: Tool (Item Condition Types)
+title: Tool (Item Condition Type)
 date: 2022-07-14
 search:
     boost: 2

@@ -1,5 +1,5 @@
 ---
-title: Functional Key (Data Types)
+title: Functional Key (Data Type)
 date: 2022-08-24
 search:
     boost: 2

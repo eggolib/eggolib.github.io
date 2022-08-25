@@ -1,5 +1,5 @@
 ---
-title: Change Health (Entity Action Types)
+title: Change Health (Entity Action Type)
 date: 2022-07-14
 search:
     boost: 2

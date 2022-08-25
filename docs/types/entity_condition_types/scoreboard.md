@@ -1,5 +1,5 @@
 ---
-title: Scoreboard (Entity Condition Types)
+title: Scoreboard (Entity Condition Type)
 date: 2022-07-14
 search:
     boost: 2

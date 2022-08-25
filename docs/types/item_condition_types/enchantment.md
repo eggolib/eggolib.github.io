@@ -1,5 +1,5 @@
 ---
-title: Enchantment (Item Condition Types)
+title: Enchantment (Item Condition Type)
 date: 2022-08-24
 search:
     boost: 2

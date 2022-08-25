@@ -1,5 +1,5 @@
 ---
-title: Drop Inventory (Entity Action Types)
+title: Drop Inventory (Entity Action Type)
 date: 2022-07-14
 search:
     boost: 2
