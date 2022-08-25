@@ -2,7 +2,7 @@
 title: Area of Effect (Block Action Type)
 date: 2022-07-14
 search:
-    boost: 1
+    boost: 2
 ---
 
 #   Area of Effect

@@ -2,7 +2,7 @@
 title: Has Tag (Entity Condition Type)
 date: 2022-07-27
 search:
-    boost: 1
+    boost: 2
 ---
 
 #   Has Tag

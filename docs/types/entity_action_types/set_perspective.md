@@ -2,7 +2,7 @@
 title: Set Perspective (Entity Action Types)
 date: 2022-07-14
 search:
-    boost: 1
+    boost: 2
 ---
 
 #   Set Perspective

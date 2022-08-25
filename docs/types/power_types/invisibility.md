@@ -2,7 +2,7 @@
 title: Invisibility (Power Types)
 date: 2022-07-14
 search:
-    boost: 1
+    boost: 2
 ---
 
 #   Invisibility

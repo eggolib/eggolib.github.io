@@ -1,6 +1,8 @@
 ---
 title: In Screen
 date: 2022-07-14
+search:
+    boost: 2
 ---
 
 #   In Screen

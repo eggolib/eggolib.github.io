@@ -1,6 +1,8 @@
 ---
 title: Permission Level (Entity Condition Types)
 date: 2022-07-14
+search:
+    boost: 2
 ---
 
 #   Permission Level
