@@ -10,4 +10,4 @@ Class data registries are objects that are instances of `HashMap<String, Class<?
 
 ### List
 
-* [In-Game Screen Class](class_data_registries/in-game_screen_class.md)
+* [**In-Game Screen Class**](class_data_registries/in-game_screen_class.md)
