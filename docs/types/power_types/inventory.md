@@ -65,7 +65,7 @@ Field | Type | Default | Description
                 },
                 {
                     "type": "apoli:equipped_item",
-                    "equipment_slot": "mainhand",
+                    "equipment_slot": "offhand",
                     "item_condition": {
                         "type": "apoli:empty"
                     }
@@ -75,7 +75,7 @@ Field | Type | Default | Description
     }
     ```
 
-    This example will provide an inventory with a size similar to a Hopper that can be opened using the `key.use` keybind while holding no items in the main and off hands.
+    This example will provide an inventory with a size similar to a Hopper that can be opened using the `key.use` keybind while holding no items in the mainhand and the offhand.
 
 
 
