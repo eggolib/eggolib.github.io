@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.1">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.2">
     
     
       
@@ -629,8 +629,8 @@
 
 
 <h1 id="modify_inventory">Modify Inventory</h1>
-<p><strong><a href="../">Entity Action Type</a></strong></p>
-<p>Modifies the item(s) from either the entity's inventory or a power that uses the <strong><a href="../../power_types/inventory/">Inventory (Power Type)</a></strong> (or <strong><a href="https://origins.readthedocs.io/en/latest/types/power_types/inventory/">Origins/Apoli's Inventory (Power Type)</a></strong>).</p>
+<p><a href="../"><strong>Entity Action Type</strong></a></p>
+<p>Modifies the item(s) from either the entity's inventory or a power that uses the <a href="../../power_types/inventory/"><strong>Inventory (Power Type)</strong></a> or <a href="https://origins.readthedocs.io/en/latest/types/power_types/inventory"><strong>Origins/Apoli's Inventory (Power Type)</strong></a>.</p>
 <p>Type ID: <code>eggolib:modify_inventory</code></p>
 <h3 id="fields">Fields</h3>
 <table>
@@ -645,43 +645,43 @@
 <tbody>
 <tr>
 <td><code>inventory_type</code></td>
-<td><strong><a href="https://origins.readthedocs.io/en/latest/misc/extras/inventory_type">Inventory Type</a></strong></td>
+<td><a href="https://origins.readthedocs.io/en/latest/misc/extras/inventory_type"><strong>Inventory Type</strong></a></td>
 <td><code>"inventory"</code></td>
 <td>Determines whether to modify the items in the inventory of the entity or the inventory of a power present in the entity.</td>
 </tr>
 <tr>
 <td><code>entity_action</code></td>
-<td><strong><a href="../">Entity Action Type</a></strong></td>
+<td><a href="../"><strong>Entity Action</strong></a></td>
 <td><em>optional</em></td>
 <td>If specified, this action will be executed on the entity <strong>before</strong> the items are modified.</td>
 </tr>
 <tr>
 <td><code>item_action</code></td>
-<td><strong><a href="https://origins.readthedocs.io/en/latest/types/item_action_types">Item Action Type</a></strong></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/item_action_types"><strong>Item Action</strong></a></td>
 <td></td>
 <td>The action to execute on the affected items.</td>
 </tr>
 <tr>
 <td><code>item_condition</code></td>
-<td><strong><a href="../../item_condition_types/">Item Condition Type</a></strong></td>
+<td><a href="../../item_condition_types/"><strong>Item Condition</strong></a></td>
 <td><em>optional</em></td>
 <td>If specified, only items which fulfill this condition will be affected by the specified action.</td>
 </tr>
 <tr>
 <td><code>slot</code></td>
-<td><strong><a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier">Identifier</a></strong></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier"><strong>Identifier</strong></a></td>
 <td><em>optional</em></td>
-<td>If specified, only items in the designated slot will be modified. See <strong><a href="https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots">Positioned Item Stack Slots</a></strong> for possible values.</td>
+<td>If specified, only items in the designated slot will be modified. See <a href="https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots"><strong>Positioned Item Stack Slots</strong></a> for possible values.</td>
 </tr>
 <tr>
 <td><code>slots</code></td>
-<td><strong><a href="https://origins.readthedocs.io/en/latest/types/data_types/array">Array</a></strong> of <strong><a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier">Identifiers</a></strong></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/array"><strong>Array</strong></a> of <a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier"><strong>Identifiers</strong></a></td>
 <td><em>optional</em></td>
-<td>If specified, only items in the designated slots will be modified. See <strong><a href="https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots">Positioned Item Stack Slots</a></strong> for possible values.</td>
+<td>If specified, only items in the designated slots will be modified. See <a href="https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots"><strong>Positioned Item Stack Slots</strong></a> for possible values.</td>
 </tr>
 <tr>
 <td><code>power</code></td>
-<td><strong><a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier">Identifier</a></strong></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier"><strong>Identifier</strong></a></td>
 <td><em>optional</em></td>
 <td>If specified and if <code>inventory_type</code> is set to <code>"power"</code>, the items in the inventory of this power will be modified instead of the items in the entity's inventory.</td>
 </tr>
