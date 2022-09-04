@@ -17,6 +17,7 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 ### List
 
 * [**Block Collision**](entity_condition_types/block_collision.md)
+* [**Breaking Block**](entity_condition_types/breaking_block.md)
 * [**Has Tag**](entity_condition_types/has_tag.md)
 * [**In Screen**](entity_condition_types/in_screen.md)
 * [**Inventory**](entity_condition_types/inventory.md)
