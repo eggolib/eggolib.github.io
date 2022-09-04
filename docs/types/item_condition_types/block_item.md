@@ -7,7 +7,7 @@ search:
 
 #   Block Item
 
-[**Item Condition Type**](../item_condition_types.md)
+[**Item Condition Type**][1]
 
 Checks whether the item is a block item *(e.g: an item that can place blocks).*
 
@@ -26,3 +26,7 @@ None.
     "type": "eggolib:block_item"
 }
 ```
+
+
+
+[1]: ../item_condition_types.md

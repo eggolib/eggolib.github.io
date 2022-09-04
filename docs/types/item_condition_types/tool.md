@@ -7,7 +7,7 @@ search:
 
 #   Tool
 
-**[Item Condition Type]**
+[**Item Condition Type**][1]
 
 Checks whether the item is a tool or if it's an instance of a certain tool type.
 
@@ -18,8 +18,8 @@ Type ID: `eggolib:tool`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`tool_type` | **[String]** | *optional* | If specified, the condition will evaluate to true if the item is an instance of this tool type. Accepts one of `"axe"`, `"hoe"`, `"pickaxe"`, `"shovel"`, `"sword"` and `"shears"`.
-`tool_types` | **[Array]** of **[Strings]** | *optional* | If specified, the condition will evaluate to true if the item is an instance of one of these tool types. Accepts `"axe"`, `"hoe"`, `"pickaxe"`, `"shovel"`, `"sword"` and `"shears"`.
+`tool_type` | [**String**][2] | *optional* | If specified, the condition will evaluate to true if the item is an instance of this tool type. Accepts one of `"axe"`, `"hoe"`, `"pickaxe"`, `"shovel"`, `"sword"` and `"shears"`.
+`tool_types` | [**Array**][3] of [**Strings**][2] | *optional* | If specified, the condition will evaluate to true if the item is an instance of one of these tool types. Accepts `"axe"`, `"hoe"`, `"pickaxe"`, `"shovel"`, `"sword"` and `"shears"`.
 
 
 ### Examples
@@ -52,7 +52,6 @@ Field | Type | Default | Description
 
 
 
-[Item Condition Type]: ../item_condition_types.md
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[Strings]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[1]: ../item_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/array

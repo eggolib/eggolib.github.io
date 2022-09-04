@@ -7,7 +7,7 @@ search:
 
 #   Open Inventory
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
 Opens an inventory.
 
@@ -15,14 +15,14 @@ Type ID: `eggolib:open_inventory`
 
 !!! caution
 
-    Currently, this entity action type does not open the inventory of the player that invoked the action.
+    Currently, this entity action type cannot open the inventory of the player that invoked the action.
 
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`power` | **[Identifier]** | *optional* | If specified, the inventory of this power will be opened instead.
+`power` | [**Identifier**][2] | *optional* | If specified, the inventory of this power will be opened instead.
 
 
 ### Examples
@@ -37,5 +37,6 @@ Field | Type | Default | Description
 This example will open the inventory of the `example:extra_inventory` *(`data/example/powers/extra_inventory.json`)* as long as that power uses the `inventory` power type.
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+
+[1]: ../entity_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/identifier

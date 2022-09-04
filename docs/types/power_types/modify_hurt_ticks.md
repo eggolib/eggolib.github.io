@@ -7,7 +7,7 @@ search:
 
 #   Modify Hurt Ticks
 
-**[Power Type]**
+[**Power Type**][1]
 
 Modifies how long the entity that has the power is immune to damage upon being damaged.
 
@@ -23,11 +23,11 @@ Type ID: `eggolib:modify_hurt_ticks`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`bientity_action` | **[Bi-entity Action Type]** | *optional* | If specified, this action will be executed on either or both the actor or target entities.
-`bientity_condition` | **[Bi-entity Condition Type]** | *optional* | If specified, the specified action/modifier(s) will only be executed/applied if this condition is fulfilled by either or both actor or target entities.
-`damage_condition` | **[Damage Condition Type]** | *optional* | If specified, the specified action/modifier(s) will only be executed/applied if this condition is fulfilled by the damage dealt to the target entity.
-`modifier` | **[Attribute Modifier]** | *optional* | If specified, this modifier will be applied to the hurt ticks of the target entity.
-`modifiers` | **[Array]** of **[Attribute Modifiers]** | *optional* | If specified, these modifiers will be applied to the hurt ticks of the target entity.
+`bientity_action` | [**Bi-entity Action Type**][2] | *optional* | If specified, this action will be executed on either or both the actor or target entities.
+`bientity_condition` | [**Bi-entity Condition Type**][3] | *optional* | If specified, the specified action/modifier(s) will only be executed/applied if this condition is fulfilled by either or both actor or target entities.
+`damage_condition` | [**Damage Condition Type**][4] | *optional* | If specified, the specified action/modifier(s) will only be executed/applied if this condition is fulfilled by the damage dealt to the target entity.
+`modifier` | [**Attribute Modifier**][5] | *optional* | If specified, this modifier will be applied to the hurt ticks of the target entity.
+`modifiers` | [**Array**][6] of [**Attribute Modifiers**][5] | *optional* | If specified, these modifiers will be applied to the hurt ticks of the target entity.
 
 
 ### Examples
@@ -66,10 +66,9 @@ Field | Type | Default | Description
 
 
 
-[Power Type]: ../power_types.md
-[Bi-entity Action Type]: https://origins.readthedocs.io/en/latest/types/bientity_action_types
-[Bi-entity Condition Type]: https://origins.readthedocs.io/en/latest/types/bientity_condition_types
-[Damage Condition Type]: ../damage_condition_types.md
-[Attribute Modifier]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier
-[Attribute Modifiers]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[1]: ../power_types.md
+[2]: ../bientity_action_types.md 
+[3]: ../bientity_condition_types.md 
+[4]: ../damage_condition_types.md 
+[5]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier 
+[6]: https://origins.readthedocs.io/en/latest/types/data_types/array

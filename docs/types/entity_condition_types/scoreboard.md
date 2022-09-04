@@ -7,7 +7,7 @@ search:
 
 #   Scoreboard
 
-**[Entity Condition Type]**
+[**Entity Condition Type**][1]
 
 Compares the score of the entity *(or score holder)* from a specified scoreboard objective to the specified value.
 
@@ -24,10 +24,10 @@ Compares the score of the entity *(or score holder)* from a specified scoreboard
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`name` | **[String]** | *optional* | If specified, the condition will check for the score of this score holder instead of the entity.
-`objective` | **[String]** | | The name of the scoreobard objective to retrieve the score of the entity or score holder from.
-`comparison` | **[Comparison]** | | Determines how the score of the entity or score holder should be compared to the specified value.
-`compare_to` | **[Integer]** | | The value which the score of the entity or score holder should be compared to.
+`name` | [**String**][2] | *optional* | If specified, the condition will check for the score of this score holder instead of the entity.
+`objective` | [**String**][2] | | The name of the scoreobard objective to retrieve the score of the entity or score holder from.
+`comparison` | [**Comparison**][3] | | Determines how the score of the entity or score holder should be compared to the specified value.
+`compare_to` | [**Integer**][4] | | The value which the score of the entity or score holder should be compared to.
 
 
 ### Examples
@@ -62,7 +62,7 @@ Field | Type | Default | Description
 
 
 
-[Entity Condition Type]: ../entity_condition_types.md
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[Comparison]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[1]: ../entity_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/integer

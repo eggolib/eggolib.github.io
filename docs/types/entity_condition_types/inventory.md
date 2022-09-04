@@ -7,7 +7,7 @@ search:
 
 #   Inventory
 
-**[Entity Condition Type]**
+[**Entity Condition Type**][1]
 
 Checks if the inventory of the entity is occupied.
 
@@ -18,11 +18,11 @@ Type ID: `eggolib:inventory`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`inventory_type` | **[Inventory Type]** | `"inventory"` | Determines whether to check for items in the inventory of the entity or the inventory of a power present in the entity.
-`item_condition` | **[Item Condition Type]** | *optional* | If specified, only evaluate the condition to true if any of the items in the specified inventory fulfills this condition.
-`slot` | **[Identifier]** | *optional* | If specified, only items in the specified slot will be checked. See **[Positioned Item Stack Slots]** for possible values.
-`slots` | **[Array]** of **[Identifiers]** | *optional* | If specified, only items in the specified slots will be checked. See **[Positioned Item Stack Slots]** for possible values.
-`power` | **[Identifier]** | *optional* | If specified and if `inventory_type` is set to `"power"`, the items in the inventory of this power will be checked instead of the items in the entity's inventory.
+`inventory_type` | [**Inventory Type**][2] | `"inventory"` | Determines whether to check for items in the inventory of the entity or the inventory of a power present in the entity.
+`item_condition` | [**Item Condition**][3] | *optional* | If specified, only evaluate the condition to true if any of the items in the specified inventory fulfills this condition.
+`slot` | [**Identifier**][4] | *optional* | If specified, only items in the specified slot will be checked. See [**Positioned Item Stack Slots**][5] for possible values.
+`slots` | [**Array**][6] of [**Identifiers**][4] | *optional* | If specified, only items in the specified slots will be checked. See [**Positioned Item Stack Slots**][5] for possible values.
+`power` | [**Identifier**][4] | *optional* | If specified and if `inventory_type` is set to `"power"`, the items in the inventory of this power will be checked instead of the items in the entity's inventory.
 
 
 ### Examples
@@ -65,10 +65,9 @@ Field | Type | Default | Description
 
 
 
-[Entity Condition Type]: ../entity_condition_types.md
-[Inventory Type]: https://origins.readthedocs.io/en/latest/misc/extras/inventory_type
-[Item Condition Type]: ../item_condition_types.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
-[Positioned Item Stack Slots]: https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
-[Identifiers]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[1]: ../entity_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/misc/extras/inventory_type
+[3]: ../item_condition_types.md
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[5]: https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots
+[6]: https://origins.readthedocs.io/en/latest/types/data_types/array

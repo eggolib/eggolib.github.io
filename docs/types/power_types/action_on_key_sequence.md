@@ -7,7 +7,7 @@ search:
 
 #   Action on Key Sequence
 
-**[Power Type]**
+[**Power Type**][1]
 
 Executes an action upon pressing certain keybinds in a certain sequence.
 
@@ -18,12 +18,12 @@ Type ID: `eggolib:action_on_key_sequence`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`success_action` | **[Entity Action Type]** | *optional* | If specified, this action will be executed if the player succeeded to press the specified keybinds in the specified sequence.
-`fail_action` | **[Entity Action Type]** | *optional* | If specified, this action will be executed if the player failed to press the specified keybinds in the specified sequence.
-`cooldown` | **[Integer]** | `0` | Interval of ticks this power needs to recharge before the power can be triggered again.
-`hud_render` | **[HUD Render]** | `{"should_render": false}` | Determines how the cooldown for this power is visualized on the HUD.
-`keys` | **[Array]**of **[Functional Keys]** | | Determines the keys to be used for completing the sequence.
-`key_sequence` | **[Array]** of **[Keys]** | | Determines the sequence to be completed by the player.
+`success_action` | [**Entity Action Type**][2] | *optional* | If specified, this action will be executed if the player succeeded to press the specified keybinds in the specified sequence.
+`fail_action` | [**Entity Action Type**][2] | *optional* | If specified, this action will be executed if the player failed to press the specified keybinds in the specified sequence.
+`cooldown` | [**Integer**][3] | `0` | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [**HUD Render**][4] | `{"should_render": false}` | Determines how the cooldown for this power is visualized on the HUD.
+`keys` | [**Array**][5] of [**Functional Keys**][6] | | Determines the keys to be used for completing the sequence.
+`key_sequence` | [**Array**][5] of [**Keys**][7] | | Determines the sequence to be completed by the player.
 
 
 ### Examples
@@ -148,10 +148,10 @@ Field | Type | Default | Description
 
 
 
-[Power Type]: ../power_types.md
-[Entity Action Type]: ../entity_action_types.md
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
-[HUD Render]: https://origins.readthedocs.io/en/latest/types/data_types/hud_render
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
-[Functional Keys]: ../data_types/functional_key.md
-[Keys]: ../data_types/key.md
+[1]: ../power_types.md
+[2]: ../entity_action_types.md 
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/integer 
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/hud_render 
+[5]: https://origins.readthedocs.io/en/latest/types/data_types/array 
+[6]: ../data_types/functional_key.md 
+[7]: ../data_types/key.md

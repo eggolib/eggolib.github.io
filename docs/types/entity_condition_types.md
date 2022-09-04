@@ -7,11 +7,11 @@ search:
 
 #   Entity Condition Types
 
-Entity condition types operate on an `Entity`, which allows access to the `World`. These are used in most powers in the `condition` *(or `entity_condition`, for other power/action/condition types)* **[object]** field, which restricts when a power is active.
+Entity condition types operate on an `Entity`, which allows access to the `World`. These are used in most powers in the `condition` *(or `entity_condition`, for other power/action/condition types)* [**object**][1] field, which restricts when a power is active.
 
 !!! note
     
-    See the documentation for **[Origins/Apoli's entity condition types]** for a list of entity condition types added by Origins/Apoli.
+    See the documentation for [**Origins/Apoli's entity condition types**][2] for a list of entity condition types added by Origins/Apoli.
 
 
 ### List
@@ -26,5 +26,5 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 
 
 
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[Origins/Apoli's entity condition types]: https//origins.readthedocs.io/en/latest/types/entity_condition_types
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[2]: https://origins.readthedocs.io/en/latest/types/entity_condition_types

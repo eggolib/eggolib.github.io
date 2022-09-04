@@ -7,7 +7,7 @@ search:
 
 #   Action on Item Pickup
 
-**[Power Type]**
+[**Power Type**][1]
 
 Executes an action upon picking up an item.
 
@@ -23,10 +23,10 @@ Type ID: `eggolib:action_on_item_pickup`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`bientity_action` | **[Bi-entity Action Type]** | *optional* | If specified, this action will be executed on either or both the '**actor**' and '**target**' entities.
-`item_action` | **[Item Action Type]** | *optional* | If specified, this action will be executed on the item that was picked up.
-`bientity_condition` | **[Bi-entity Condition Type]** | *optional* | If specified, the actions will only be executed if this condition is fulfilled by either or both the '**actor**' and '**target**' entities.
-`item_condition` | **[Item Condition Type]** | *optional* | If specified, the actions will only be executed if this condition is fulfilled by the item about to be picked up.
+`bientity_action` | [**Bi-entity Action Type**][2] | *optional* | If specified, this action will be executed on either or both the '**actor**' and '**target**' entities.
+`item_action` | [**Item Action Type**][3] | *optional* | If specified, this action will be executed on the item that was picked up.
+`bientity_condition` | [**Bi-entity Condition Type**][4] | *optional* | If specified, the actions will only be executed if this condition is fulfilled by either or both the '**actor**' and '**target**' entities.
+`item_condition` | [**Item Condition Type**][5] | *optional* | If specified, the actions will only be executed if this condition is fulfilled by the item about to be picked up.
 
 
 ### Examples
@@ -95,8 +95,8 @@ Field | Type | Default | Description
 
 
 
-[Power Type]: ../power_types.md
-[Bi-entity Action Type]: ../bientity_action_types.md
-[Item Action Type]: https://origins.readthedocs.io/en/latest/types/item_action_types
-[Bi-entity Condition Type]: ../bientity_condition_types.md
-[Item Condition Type]: ../item_condition_types.md
+[1]: ../power_types.md
+[2]: ../bientity_action_types.md 
+[3]: https://origins.readthedocs.io/en/latest/types/item_action_types 
+[4]: ../bientity_condition_types.md 
+[5]: ../item_condition_types.md

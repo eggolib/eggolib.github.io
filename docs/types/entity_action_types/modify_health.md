@@ -7,7 +7,7 @@ search:
 
 #   Modify Health
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
 Modifies the current health of the entity.
 
@@ -23,7 +23,7 @@ Type ID: `eggolib:modify_health`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`modifier` | **[Attribute Modifier]** | | The modifier to use for modifying the current health of the entity.
+`modifier` | [**Attribute Modifier**][2] | | The modifier to use for modifying the current health of the entity.
 
 
 ### Examples
@@ -59,5 +59,5 @@ Field | Type | Default | Description
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Attribute Modifier]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier
+[1]: ../entity_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier

@@ -7,7 +7,7 @@ search:
 
 #   Perspective
 
-**[Entity Condition Type]**
+[**Entity Condition Type**][1]
 
 Checks the current perspective of the player.
 
@@ -18,8 +18,8 @@ Type ID: `eggolib:perspective`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`perspective` | **[Perspective]** | *optional* | If specified, the condition will evaluate to true if the player has this set as their perspective.
-`perspectives` | **[Array]** of **[Perspectives]** | *optional* | If specified, the condition will evaluate to true if the player has one of these set as their perspective.
+`perspective` | [**Perspective**][2] | *optional* | If specified, the condition will evaluate to true if the player has this set as their perspective.
+`perspectives` | [**Array**][3] of [**Perspectives**][2] | *optional* | If specified, the condition will evaluate to true if the player has one of these set as their perspective.
 
 
 ### Examples
@@ -52,7 +52,6 @@ Field | Type | Default | Description
 
 
 
-[Entity Condition Type]: ../entity_condition_types.md
-[Perspective]: ../data_types/perspective.md
-[Perspectives]: ../data_types/perspective.md
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[1]: ../entity_condition_types.md
+[2]: ../data_types/perspective.md
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/array

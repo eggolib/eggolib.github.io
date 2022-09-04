@@ -7,9 +7,9 @@ search:
 
 #   Math Operation
 
-**[Data Type]**
+[**Data Type**][1]
 
-A **[string]** used to determine how an **[integer]** should be operated with another **[integer]**.
+A [**string**][2] used to determine how an [**integer**][3] should be operated with another [**integer**][3].
 
 
 ### Values
@@ -27,6 +27,6 @@ Value      | Description
 
 
 
-[Data Type]: ../data_types.md
-[string]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[1]: ../data_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/integer

@@ -7,7 +7,7 @@ search:
 
 #   Enchantment
 
-**[Item Condition Type]**
+[**Item Condition Type**][1]
 
 Checks whether the item is enchanted.
 
@@ -18,9 +18,9 @@ Type ID: `eggolib:enchantment`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`enchantment` | **[Identifier]** | *optional* | If specified, the condition will check if the item has this specific enchantment.
-`comparison` | **[Comparison]** | `">="` | Determines how the level of the specified enchantment is compared to the specified value. If `enchantment` is not present, this will determine how the count of available enchantments in the item is compared to the specified value instead.
-`compare_to` | **[Integer]** | `1` | The specified value to compare the level of the specified enchantment to. If `enchantment` is not present, this will be compared to the count of available enchantments in the item instead.
+`enchantment` | [**Identifier**][2] | *optional* | If specified, the condition will check if the item has this specific enchantment.
+`comparison` | [**Comparison**][3] | `">="` | Determines how the level of the specified enchantment is compared to the specified value. If `enchantment` is not present, this will determine how the count of available enchantments in the item is compared to the specified value instead.
+`compare_to` | [**Integer**][4] | `1` | The specified value to compare the level of the specified enchantment to. If `enchantment` is not present, this will be compared to the count of available enchantments in the item instead.
 
 
 ### Examples
@@ -53,7 +53,7 @@ Field | Type | Default | Description
 
 
 
-[Item Condition Type]: ../item_condition_types.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
-[Comparison]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[1]: ../item_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/integer

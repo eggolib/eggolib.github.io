@@ -7,11 +7,11 @@ search:
 
 #   Entity Action Types
 
-Entity action types operate on an `Entity`. Some entity action types only affect certain entity types. These are available to power/action types that provides an `entity_action` **[object]** field.
+Entity action types operate on an `Entity`. Some entity action types only affect certain entity types. These are available to power/action types that provides an `entity_action` [**object**][1] field.
 
 !!! note
 
-    See the documentation for **[Origins/Apoli's entity action types]** for a list of entity action types added by Origins/Apoli.
+    See the documentation for [**Origins/Apoli's entity action types**][2] for a list of entity action types added by Origins/Apoli.
 
 
 ### List
@@ -32,5 +32,5 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 
 
 
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[Origins/Apoli's entity action types]: https://origins.readthedocs.io/en/latest/types/entity_action_types
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[2]: https://origins.readthedocs.io/en/latest/types/entity_action_types

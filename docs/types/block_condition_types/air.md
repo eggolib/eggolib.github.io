@@ -7,7 +7,7 @@ search:
 
 #   Air
 
-[**Block Condition Type**](../block_condition_types.md)
+[**Block Condition Type**][1]
 
 Checks if the block is air/void air/cave air.
 
@@ -26,3 +26,7 @@ Type ID: `eggolib:air`
     "type": "eggolib:air"
 }
 ```
+
+
+
+[1]: ../block_condition_types.md

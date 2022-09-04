@@ -7,7 +7,7 @@ search:
 
 #   Change Insomnia Ticks
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
 Changes the value of the `minecraft.custom:minecraft.time_since_rest` statistic of the player.
 
@@ -18,8 +18,8 @@ Type ID: `eggolib:change_insomnia_ticks`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-change | **[Integer]** | | The value to be used for changing the value of the player's `minecraft.custom:minecraft.time_since_rest` statistic.
-operation | **[String]** | `"add"` | Determines how the specified value will be operated on the value of the player's `minecraft.custom:minecraft.time_since_rest` statistic. Accepts one of `"add"` and `"set"`.
+`change` | [**Integer**][2] | | The value to be used for changing the value of the player's `minecraft.custom:minecraft.time_since_rest` statistic.
+`operation` | [**String**][3] | `"add"` | Determines how the specified value will be operated on the value of the player's `minecraft.custom:minecraft.time_since_rest` statistic. Accepts one of `"add"` and `"set"`.
 
 
 ### Examples
@@ -51,6 +51,6 @@ operation | **[String]** | `"add"` | Determines how the specified value will be 
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[1]: ../entity_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/string

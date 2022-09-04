@@ -7,7 +7,7 @@ search:
 
 #   Damage
 
-**[Entity Action Type]**
+[Entity Action Type][1]
 
 Deals damage to the entity.
 
@@ -23,9 +23,9 @@ Type ID: `eggolib:damage`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`amount` | **[Float]** | *optional* | If specified, this amount of damage will be dealt to the entity.
-`source` | **[Damage Source]** | | Determines the source for the damage to be used. Controls the death message, invulnerabilities or whether the armor should be taken into account.
-`modifier` | **[Attribute Modifier]** | *optional* | If specified, this modifier and its value will be used as the amount of damage that will be dealt to the entity.
+`amount` | [Float][2] | *optional* | If specified, this amount of damage will be dealt to the entity.
+`source` | [Damage Source][3] | | Determines the source for the damage to be used. Controls the death message, invulnerabilities or whether the armor should be taken into account.
+`modifier` | [Attribute Modifier][4] | *optional* | If specified, this modifier and its value will be used as the amount of damage that will be dealt to the entity.
 
 
 ### Examples
@@ -66,7 +66,7 @@ Field | Type | Default | Description
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Float]: https://origins.readthedocs.io/en/latest/types/data_types/float
-[Damage Source]: https://origins.readthedocs.io/en/latest/types/data_types/damage_source
-[Attribute Modifier]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier 
+[1]: ../entity_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/float
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/damage_source
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier

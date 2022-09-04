@@ -7,7 +7,7 @@ search:
 
 #   Invisibility
 
-**[Power Type]**
+[**Power Type**][1]
 
 Grants the entity that has the power invisibility, which may or may not affect their armor.
 
@@ -23,8 +23,8 @@ Type ID: `eggolib:invisibility`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`bientity_condition` | **[Bi-entity Condition Type]** | *optional* | If specified, the '**target**' entity will only be invisible to the '**actor**' entities if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
-`render_armor` | **[Boolean]** | | Determines if the armor should also be invisible.
+`bientity_condition` | [**Bi-entity Condition Type**][2] | *optional* | If specified, the '**target**' entity will only be invisible to the '**actor**' entities if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
+`render_armor` | [**Boolean**][3] | | Determines if the armor should also be invisible.
 
 
 ### Examples
@@ -62,6 +62,6 @@ Field | Type | Default | Description
 
 
 
-[Power Type]: ../power_types.md
-[Bi-entity Condition Type]: https://origins.readthedocs.io/en/latest/types/bientity_condition_types
-[Boolean]: https://origins.readthedocs.io/en/latest/types/data_types/boolean
+[1]: ../power_types.md
+[2]: ../bientity_condition_types.md 
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/boolean

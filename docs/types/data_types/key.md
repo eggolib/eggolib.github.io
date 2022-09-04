@@ -7,16 +7,16 @@ search:
 
 #   Key
 
-**[Data Type]**
+[**Data Type**][1]
 
-An **[object]** or **[string]** used for representing a keybind. This data type is only a placeholder.
+An [**object**][2] or [**string**][3] used for representing a keybind. This data type is only a placeholder.
 
 
 ### Fields
 
 Fields | Type | Default | Description
 -------|------|---------|------------
-`key` | **[String]** | | The name of the keybind.
+`key` | [**String**][3] | | The name of the keybind.
 
 
 ### Examples
@@ -46,7 +46,6 @@ Fields | Type | Default | Description
 
 
 
-[Data Type]: ../data_types.md
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[string]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[1]: ../data_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/string

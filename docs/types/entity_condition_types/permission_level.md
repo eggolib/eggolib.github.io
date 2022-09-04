@@ -7,7 +7,7 @@ search:
 
 #   Permission Level
 
-**[Entity Condition Type]**
+[**Entity Condition Type**][1]
 
 Checks if the entity has the specified permission level.
 
@@ -22,8 +22,8 @@ Type ID: `eggolib:permission_level`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`comparison` | **[Comparison]** | `">="` | Determines how the permission level of the entity should be compared to the specified value.
-`compare_to` | **[Integer]** | `2` | The value which the permission level of the entity should be compared to.
+`comparison` | [**Comparison**][2] | `">="` | Determines how the permission level of the entity should be compared to the specified value.
+`compare_to` | [**Integer**][3] | `2` | The value which the permission level of the entity should be compared to.
 
 
 ### Examples
@@ -55,6 +55,6 @@ Field | Type | Default | Description
 
 
 
-[Entity Condition Type]: ../entity_condition_types.md
-[Comparison]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[1]: ../entity_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/comparison
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/integer

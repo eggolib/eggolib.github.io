@@ -7,7 +7,7 @@ search:
 
 #   Loop
 
-**[Meta Action Type]**
+[**Meta Action Type**][1]
 
 Executes an action for the specified amount of iterations.
 
@@ -18,11 +18,11 @@ Type ID: `eggolib:loop`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`before_action` | **[Action Type]** | *optional* | If specified, this action will be executed before the loop starts.
-`action` | **[Action Type]** | *optional* | If specified, this action will be executed for each iteration of the loop.
-`after_action` | **[Action Type]** | *optional* | If specified, this action will be executed after the loop ends.
-`score` | **[Scoreboard]** | *optional* | If specified, this value will be used as the amount of iterations for the loop.
-`value` | **[Integer]** | *optional* | If specified and if `score` is not specified, this value will be used as the amount of iterations for the loop.
+`before_action` | [**Action Type**][2] | *optional* | If specified, this action will be executed before the loop starts.
+`action` | [**Action Type**][2] | *optional* | If specified, this action will be executed for each iteration of the loop.
+`after_action` | [**Action Type**][2] | *optional* | If specified, this action will be executed after the loop ends.
+`score` | [**Scoreboard**][3] | *optional* | If specified, this value will be used as the amount of iterations for the loop.
+`value` | [**Integer**][4] | *optional* | If specified and if `score` is not specified, this value will be used as the amount of iterations for the loop.
 
 
 ### Examples
@@ -63,7 +63,7 @@ Field | Type | Default | Description
 
 
 
-[Meta Action Type]: ../meta_action_types.md
-[Action Type]: https://origins.readthedocs.io/en/latest/types/action_types
-[Scoreboard]: ../data_types/scoreboard.md
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[1]: ../meta_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/action_types
+[3]: ../data_types/scoreboard.md
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/integer

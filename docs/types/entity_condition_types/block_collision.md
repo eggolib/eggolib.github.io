@@ -7,7 +7,7 @@ search:
 
 #   Block Collision
 
-**[Entity Condition Type]**
+[**Entity Condition Type**][1]
 
 Checks whether the bounding box of the entity is colliding with a block.
 
@@ -18,10 +18,10 @@ Type ID: `eggolib:block_collision`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`block_condition` | **[Block Condition Type]** | *optional* | If specified, the condition will only evaluate to true if this condition is fulfilled by the block colliding with the bounding box of the entity.
-`offset_x` | **[Float]** | `0` | Determines the offset for the bounding box of the entity in the X axis.
-`offset_y` | **[Float]** | `0` | Determines the offset for the bounding box of the entity in the Y axis.
-`offset_z` | **[Float]** | `0` | Determines the offset for the bounding box of the entity in the Z axis.
+`block_condition` | [**Block Condition**][2] | *optional* | If specified, the condition will only evaluate to true if this condition is fulfilled by the block colliding with the bounding box of the entity.
+`offset_x` | [**Float**][3] | `0` | Determines the offset for the bounding box of the entity in the X axis.
+`offset_y` | [**Float**][3] | `0` | Determines the offset for the bounding box of the entity in the Y axis.
+`offset_z` | [**Float**][3] | `0` | Determines the offset for the bounding box of the entity in the Z axis.
 
 
 ### Examples
@@ -71,6 +71,6 @@ Field | Type | Default | Description
 
 
 
-[Entity Condition Type]: ../entity_condition_types.md
-[Block Condition Type]: ../block_condition_types.md
-[Float]: https://origins.readthedocs.io/en/latest/types/data_types/float
+[1]: ../entity_condition_types.md
+[2]: ../block_condition_types.md
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/float

@@ -7,7 +7,7 @@ search:
 
 #   Close Screen
 
-[**Entity Action Type**](../entity_action_types.md)
+[**Entity Action Type**][1]
 
 Closes the current screen of the player.
 
@@ -26,3 +26,7 @@ Type ID: `eggolib:close_screen`
     "type": "eggolib:close_screen"
 }
 ```
+
+
+
+[1]: ../entity_action_types.md

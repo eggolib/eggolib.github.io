@@ -7,7 +7,7 @@ search:
 
 #   Change Health
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
 Changes the health of the entity.
 
@@ -18,8 +18,8 @@ Type ID: `eggolib:change_health`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`change` | **[Float]** | | The value to be used for modifying the entity's health.
-`operation` | **[String]** | `"add"` | Determines how the specified value will be operated on the entity's health. Accepts one of `"add"` and `"set"`.
+`change` | [**Float**][2] | | The value to be used for modifying the entity's health.
+`operation` | [**String**][3]] | `"add"` | Determines how the specified value will be operated on the entity's health. Accepts one of `"add"` and `"set"`.
 
 
 ### Examples
@@ -51,6 +51,6 @@ Field | Type | Default | Description
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Float]: https://origins.readthedocs.io/en/latest/types/data_types/float
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[1]: ../entity_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/float
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/string

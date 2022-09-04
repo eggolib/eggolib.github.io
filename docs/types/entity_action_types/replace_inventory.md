@@ -7,9 +7,9 @@ search:
 
 #   Replace Inventory
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
-Replaces the item(s) from either the entity's inventory or a power that uses the **[Inventory (Power Type)]** or **[Origins/Apoli's Inventory (Power Type)]**.
+Replaces the item(s) from either the entity's inventory or a power that uses the [**Inventory (Power Type)**][2] or [**Origins/Apoli's Inventory (Power Type)**][3].
 
 Type ID: `eggolib:replace_inventory`
 
@@ -18,15 +18,15 @@ Type ID: `eggolib:replace_inventory`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`inventory_type` | **[Inventory Type]** | `"inventory"` | Determines whether to replace the items from the inventory of the entity or the inventory of a power present in the entity.
-`entity_action` | **[Entity Action Type]** | *optional* | If specified, this action will be executed on the entity **before** the items are replaced.
-`item_action` | **[Item Action Type]** | *optional* | If specified, this action will be executed on the affected items **after** the said items are replaced.
-`item_condition` | **[Item Condition Type]** | *optional* | If specified, only items which fulfill this condition will be replaced.
-`slot` | **[Identifier]** | *optional* | If specified, only items in the designated slot will be replaced. See **[Positioned Item Stack Slots]** for possible values.
-`slots` | **[Array]** of **[Identifiers]** | *optional* | If specified, only items in the designated slots will be replaced. See **[Positioned Item Stack Slots]** for possible values.
-`power` | **[Identifier]** | *optional* | If specified and if `inventory_type` is set to `"power"`, the items in the inventory of this power will be replaced instead of the items in the entity's inventory.
-`stack` | **[Item Stack]** | | The item to use as a replacement for the affected items.
-`merge_nbt` | **[Boolean]** | `false` | Determines whether to merge the NBTs of the item that will be replaced and the NBTs of the item that will be used as a replacement.
+`inventory_type` | [**Inventory Type**][4] | `"inventory"` | Determines whether to replace the items from the inventory of the entity or the inventory of a power present in the entity.
+`entity_action` | [**Entity Action**][5] | *optional* | If specified, this action will be executed on the entity **before** the items are replaced.
+`item_action` | [**Item Action**][6] | *optional* | If specified, this action will be executed on the affected items **after** the said items are replaced.
+`item_condition` | [**Item Condition**][7] | *optional* | If specified, only items which fulfill this condition will be replaced.
+`slot` | [**Identifier**][8] | *optional* | If specified, only items in the designated slot will be replaced. See [**Positioned Item Stack Slots**][9] for possible values.
+`slots` | [**Array**][10] of [**Identifiers**][8] | *optional* | If specified, only items in the designated slots will be replaced. See [**Positioned Item Stack Slots**][9] for possible values.
+`power` | [**Identifer**][8] | *optional* | If specified and if `inventory_type` is set to `"power"`, the items in the inventory of this power will be replaced instead of the items in the entity's inventory.
+`stack` | [**Item Stack**][11] | | The item to use as a replacement for the affected items.
+`merge_nbt` | [**Boolean**][12] | `false` | Determines whether to merge the NBTs of the item that will be replaced and the NBTs of the item that will be used as a replacement.
 
 
 ### Examples
@@ -80,15 +80,15 @@ Field | Type | Default | Description
 
 
 
-[Inventory (Power Type)]: ../power_types/inventory.md
-[Origins/Apoli's Inventory (Power Type)]: https://origins.readthedocs.io/en/latest/types/power_types/inventory/
-[Entity Action Type]: ../entity_action_types.md
-[Inventory Type]: https://origins.readthedocs.io/en/latest/misc/extras/inventory_type
-[Item Action Type]: https://origins.readthedocs.io/en/latest/types/item_action_types
-[Item Condition Type]: ../item_condition_types.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
-[Identifiers]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
-[Positioned Item Stack Slots]: https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots
-[Item Stack]: https://origins.readthedocs.io/en/latest/types/data_types/item_stack
-[Boolean]: https://origins.readthedocs.io/en/latest/types/data_types/boolean
+[1]: ../entity_action_types.md
+[2]: ../power_types/inventory.md
+[3]: https://origins.readthedocs.io/en/latest/types/power_types/inventory
+[4]: https://origins.readthedocs.io/en/latest/misc/extras/inventory_type
+[5]: ../entity_action_types.md
+[6]: https://origins.readthedocs.io/en/latest/types/item_action_types
+[7]: ../item_condition_types.md
+[8]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[9]: https://origins.readthedocs.io/en/latest/misc/extras/positioned_item_stack_slots
+[10]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[11]: https://origins.readthedocs.io/en/latest/types/data_types/item_stack
+[12]: https://origins.readthedocs.io/en/latest/types/data_types/boolean

@@ -7,7 +7,7 @@ search:
 
 #   Area of Effect
 
-**[Block Action Type]**
+[**Block Action Type**][1]
 
 Executes an action on blocks that are within the specified radius.
 
@@ -18,10 +18,10 @@ Type ID: `eggolib:area_of_effect`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`radius` | **[Integer]** | | Determines the radius of the area to execute the action on.
-`shape` | **[String]** | `"cube"` | Determines the shape of the area to execute the action on. Accepts one of `"cube"`, `"star"` or `"sphere"`.
-`block_action` | **[Block Action Type]** | | The action to execute on the block(s) within the specified radius.
-`block_condition` | **[Block Condition Type]** | *optional* | If specified, only execute the specified action on the block(s) that fulfills this condition.
+`radius` | [**Integer**][2] | | Determines the radius of the area to execute the action on.
+`shape` | [**String**][3] | `"cube"` | Determines the shape of the area to execute the action on. Accepts one of `"cube"`, `"star"` or `"sphere"`.
+`block_action` | [**Block Action**][4] | | The action to execute on the block(s) within the specified radius.
+`block_condition` | [**Block Condition**][5] | *optional* | If specified, only execute the specified action on the block(s) that fulfills this condition.
 
 
 ### Examples
@@ -67,7 +67,7 @@ Field | Type | Default | Description
 
 
 
-[Block Action Type]: ../block_action_types.md
-[Integer]: https://origins.readthedocs.io/en/latest/types/data_types/integer
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[Block Condition Type]: ../block_condition_types.md
+[1]: ../block_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/integer
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[4]: ../block_condition_types.md

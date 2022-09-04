@@ -7,7 +7,7 @@ search:
 
 #   Set Perspective
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
 Sets the perspective of the player.
 
@@ -18,7 +18,7 @@ Type ID: `eggolib:set_perspective`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`perspective` | **[Perspective]** | | The perspective to use.
+`perspective` | [**Perspective**][2] | | The perspective to use.
 
 
 ### Examples
@@ -34,5 +34,5 @@ This example will set the perspective of the player to first person.
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Perspective]: ../data_types/perspective.md
+[1]: ../entity_action_types.md
+[2]: ../data_types/perspective.md

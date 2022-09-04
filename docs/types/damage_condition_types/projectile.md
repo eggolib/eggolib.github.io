@@ -7,7 +7,7 @@ search:
 
 #   Projectile
 
-**[Damage Condition Type]**
+[**Damage Condition Type**][1]
 
 Checks whether the damage source is projectile damage; can also optionally check the type(s) of projectile or its NBT.
 
@@ -18,9 +18,9 @@ Type ID: `eggolib:projectile`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`projectile` | **[Identifier]** | *optional* | If specified, the condition will evaluate to true if the projectile matches this entity type identifier.
-`projectiles` | **[Array]** of **[Identifiers]** | *optional* | If specified, the condition will evaluate to true if the projectile matches any of these entity type identifiers.
-`nbt` | **[String]** | *optional* | If specified, the condition will evaluate to true if the projectile has this NBT data.
+`projectile` | [**Identifier**][2] | *optional* | If specified, the condition will evaluate to true if the projectile matches this entity type identifier.
+`projectiles` | [**Array**][3] of [**Identifiers**][2] | *optional* | If specified, the condition will evaluate to true if the projectile matches any of these entity type identifiers.
+`nbt` | [**String**][4] | *optional* | If specified, the condition will evaluate to true if the projectile has this NBT data.
 
 
 ### Examples
@@ -55,8 +55,7 @@ Field | Type | Default | Description
 
 
 
-[Damage Condition Type]: ../damage_condition_types.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
-[Identifiers]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[1]: ../damage_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[4]: https://origins.readthedocs.io/en/latest/types/data_types/string

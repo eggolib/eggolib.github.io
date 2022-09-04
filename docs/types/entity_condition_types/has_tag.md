@@ -7,7 +7,7 @@ search:
 
 #   Has Tag
 
-**[Entity Condition Type]**
+[Entity Condition Type][1]
 
 Checks if the entity has a scoreboard tag *(added via the `/tag` command).*
 
@@ -23,8 +23,8 @@ Type ID: `eggolib:has_tag`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`tag`  | **[String]** | *optional* | If specified, checks if the entity has this scoreboard tag.
-`tags` | **[Array]** of **[Strings]** | *optional* | If specified, checks if the entity has these scoreboard tags.
+`tag`  | [String][2] | *optional* | If specified, checks if the entity has this scoreboard tag.
+`tags` | [Array][3] of [Strings][2] | *optional* | If specified, checks if the entity has these scoreboard tags.
 
 
 ### Examples
@@ -57,7 +57,6 @@ Field | Type | Default | Description
 
 
 
-[Entity Condition Type]: ../entity_condition_types.md
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
-[Array]: https://origins.readthedocs.io/en/latest/types/data_types/array
-[Strings]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[1]: ../entity_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/array

@@ -7,9 +7,9 @@ search:
 
 #   Scoreboard
 
-**[Data Type]**
+[Data Type][1]
 
-An object used for getting the score of a score holder from a scoreboard objective.
+An [object][2] used for getting the score of a score holder from a scoreboard objective.
 
 !!! note
 
@@ -17,15 +17,15 @@ An object used for getting the score of a score holder from a scoreboard objecti
 
 !!! caution
 
-    The `name` field of the data type does **not** accept target selectors.
+    Currently, the `name` field of the data type does **not** accept target selectors.
 
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`name` | **[String]**| | The name of the score holder.
-`objective` | **[String]** | | The name of the scoreboard objective.
+`name` | [String][3] | | The name of the score holder.
+`objective` | [String][3] | | The name of the scoreboard objective.
 
 
 ### Examples
@@ -55,5 +55,6 @@ Field | Type | Default | Description
 
 
 
-[Data Type]: ../data_types.md
-[String]: https://origins.readthedocs.io/en/latest/types/data_types/string
+[1]: ../data_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/string

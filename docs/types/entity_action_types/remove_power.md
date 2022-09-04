@@ -7,7 +7,7 @@ search:
 
 #   Remove Power
 
-**[Entity Action Type]**
+[**Entity Action Type**][1]
 
 Removes a power from the entity.
 
@@ -18,7 +18,7 @@ Type ID: `eggolib:remove_power`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`power` | **[Identifier]** | | The namespace, path and ID of the power to be removed.
+`power` | [**Identifier**][2] | | The namespace, path and ID of the power to be removed.
 
 
 ### Examples
@@ -34,5 +34,5 @@ This example will remove the `example:phasing` *(`data/example/powers/phasing.js
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[1]: ../entity_action_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/identifier

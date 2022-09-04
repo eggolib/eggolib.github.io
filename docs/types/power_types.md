@@ -9,11 +9,11 @@ search:
 
 Power types are what grants functionality to powers. Each power has a type, specified with a `type` field in the JSON file. Which type a power is defines which other fields it requires and supports.
 
-Unless stated otherwise, each power type supports a `condition` **[object]** field that can check for **[entity condition types]**. See **[Power (JSON Format)]** for more details.
+Unless stated otherwise, each power type supports a `condition` [**object**][1] field that can check for [**entity condition types**][2]. See [**Power (JSON Format)**][3] for more details.
 
 !!! note
 
-    See the documentation for **[Origins/Apoli's power types]** for a list of power types added by Origins/Apoli.
+    See the documentation for [**Origins/Apoli's power types**][4] for a list of power types added by Origins/Apoli.
 
 
 ### Regular types
@@ -43,7 +43,7 @@ Unless stated otherwise, each power type supports a `condition` **[object]** fie
 
 
 
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[entity condition types]: https://origins.readthedocs.io/en/latest/types/entity_condition_types
-[Power (JSON Format)]: https://origins.readthedocs.io/en/latest/json/power
-[Origins/Apoli's power types]: https://origins.readthedocs.io/en/latest/types/power_types
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[2]: entity_condition_types.md
+[3]: https://origins.readthedocs.io/en/latest/json/power
+[4]: https://origins.readthedocs.io/en/latest/types/power_types

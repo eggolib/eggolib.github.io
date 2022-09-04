@@ -7,11 +7,11 @@ search:
 
 #   Damage Condition Types
 
-Damage condition types operate on a `Pair<DamageSource, Float>`, allowing to check not only the source of the damage dealt but also how much damage was dealt. These are available to power/condition types that provides a `damage_condition` **[object]** field.
+Damage condition types operate on a `Pair<DamageSource, Float>`, allowing to check not only the source of the damage dealt but also how much damage was dealt. These are available to power/condition types that provides a `damage_condition` [**object**][1] field.
 
 !!! note
 
-    See the documentation for **[Origins/Apoli's damage condition types]** for a list of damage condition types added by Origins/Apoli.
+    See the documentation for [Origins/Apoli's damage condition types][2] for a list of damage condition types added by Origins/Apoli.
 
 
 ### List
@@ -20,5 +20,5 @@ Damage condition types operate on a `Pair<DamageSource, Float>`, allowing to che
 
 
 
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[Origins/Apoli's damage condition types]: https://origins.readthedocs.io/en/latest/types/damage_condition_types
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[2]: https://origins.readthedocs.io/en/latest/types/damage_condition_types

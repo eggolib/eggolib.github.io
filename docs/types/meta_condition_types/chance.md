@@ -7,7 +7,7 @@ search:
 
 #   Chance
 
-**[Meta Condition Type]**
+[**Meta Condition Type**][1]
 
 Generates a random value ranging from 0.0 to 1.0 and checks if it's less than the specified value.
 
@@ -18,7 +18,7 @@ Type ID: `eggolib:chance`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`chance` | **[Float]** | | The value to compare the generated random value to.
+`chance` | [**Float**][2] | | The value to compare the generated random value to.
 
 
 ### Examples
@@ -36,5 +36,5 @@ Field | Type | Default | Description
 
 
 
-[Meta Condition Type]: ../meta_condition_types.md
-[Float]: https://origins.readthedocs.io/en/latest/types/data_types/float
+[1]: ../meta_condition_types.md
+[2]: https://origins.readthedocs.io/en/latest/types/data_types/float

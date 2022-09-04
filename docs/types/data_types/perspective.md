@@ -9,7 +9,7 @@ search:
 
 [Data Type](../data_types.md)
 
-A string used to determine the perspective *(e.g: the angle of the camera)* of player.
+A [**string**][1] used to determine the perspective *(e.g: the angle of the camera)* of player.
 
 
 ### Values
@@ -17,3 +17,7 @@ A string used to determine the perspective *(e.g: the angle of the camera)* of p
 * `first_person`
 * `third_person_back`
 * `third_person_front`
+
+
+
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/string

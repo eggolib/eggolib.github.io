@@ -7,11 +7,11 @@ search:
 
 #   Block Action Types
 
-Block action types operate on a `Triple<World, BlockPos, Direction>`, which allows for modifying a block at a certain `World` and/or `BlockPos`. These are available to power/action/condition types that provides a `block_action` **[object]** field.
+Block action types operate on a `Triple<World, BlockPos, Direction>`, which allows for modifying a block at a certain `World` and/or `BlockPos`. These are available to power/action/condition types that provides a `block_action` [**object**][1] field.
 
 !!! note
 
-    See the documentation for **[Origins/Apoli's block action types]** for a list of block action types added by Origins/Apoli.
+    See the documentation for [**Origins/Apoli's block action types**][2] for a list of block action types added by Origins/Apoli.
 
 
 ### List
@@ -20,5 +20,5 @@ Block action types operate on a `Triple<World, BlockPos, Direction>`, which allo
 
 
 
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[Origins/Apoli's block action types]: https://origins.readthedocs.io/en/latest/types/block_action_types
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[2]: https://origins.readthedocs.io/en/latest/types/block_action_types

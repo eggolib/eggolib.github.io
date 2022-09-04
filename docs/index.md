@@ -1,8 +1,8 @@
 #   Welcome to eggolib's Documentation!
 
-This documentation extends the information given by the **[documentation for the Origins mod]**. It's recommended that you familiarize yourself with developing a datapack using Origins/Apoli so that you know how exactly stuff works.
+This documentation extends the information given by the [**documentation for the Origins mod**][1]. It's recommended that you familiarize yourself with developing a datapack using Origins/Apoli so that you know how exactly stuff works.
 
-If you have any questions, feel free to DM me in Discord *(`eggohito#9048`)*, mention me in the `#addon-support` channel of the **[Origins Discord server]**, or open up a **[discussion]**/**[issue]** in the **[GitHub repository]** for eggolib.
+If you have any questions, feel free to DM me in Discord *(`eggohito#9048`)*, mention me in the `#addon-support` channel of the [**Origins Discord server**][2], or open up a [**discussion**][3]/[**issue**][4] in the [**GitHub repository**][5] for eggolib.
 
 
 ### Helpful links
@@ -12,8 +12,8 @@ If you have any questions, feel free to DM me in Discord *(`eggohito#9048`)*, me
 
 
 
-[documentation for the Origins mod]: https://origins.readthedocs.io/en/latest
-[Origins Discord server]: https://discord.com/invite/4mTMHu3
-[discussion]: https://github.com/eggohito/eggolib/discussions/new
-[issue]: https://github.com/eggohito/eggolib/issues/new
-[GitHub repository]: https://github.com/eggohito/eggolib
+[1]: https://origins.readthedocs.io/en/latest
+[2]: https://discord.com/invite/4mTMHu3
+[3]: https://github.com/eggohito/eggolib/discussions/new
+[4]: https://github.com/eggohito/eggolib/issues/new
+[5]: https://github.com/eggohito/eggolib

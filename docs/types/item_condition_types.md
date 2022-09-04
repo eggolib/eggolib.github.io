@@ -7,11 +7,11 @@ search:
 
 #   Item Condition Types
 
-Item condition types operate on an `ItemStack`. These are available to power/action/condition types that provides an `item_condition` **[object]** field.
+Item condition types operate on an `ItemStack`. These are available to power/action/condition types that provides an `item_condition` [**object**][1] field.
 
 !!! note
 
-    See the documentation for **[Origins/Apoli's item condition types]** for a list of item condition types added by Origins/Apoli.
+    See the documentation for [**Origins/Apoli's item condition types**][2] for a list of item condition types added by Origins/Apoli.
 
 
 ### List
@@ -22,6 +22,5 @@ Item condition types operate on an `ItemStack`. These are available to power/act
 
 
 
-[object]: https://origins.readthedocs.io/en/latest/types/data_types/object
-[Origins/Apoli's item condition types]: https://origins.readthedocs.io/en/latest/types/item_condition_types
-
+[1]: https://origins.readthedocs.io/en/latest/types/data_types/object
+[2]: https://origins.readthedocs.io/en/latest/types/item_condition_types

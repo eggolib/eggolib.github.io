@@ -7,9 +7,9 @@ search:
 
 #   Clear Key Cache
 
-**[Entity Action Type]**
+[Entity Action Type][1]
 
-Clears the key sequence cache of a power that uses the **[Action on Key Sequence (Power Type)]**.
+Clears the key sequence cache of a power that uses the [Action on Key Sequence (Power Type)][2].
 
 Type ID: `eggolib:clear_key_cache`
 
@@ -18,7 +18,7 @@ Type ID: `eggolib:clear_key_cache`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`power` | **[Identifier]** | | The namespace and ID of the power to clear the key sequence cache of.
+`power` | [Identifier][3] | | The namespace and ID of the power to clear the key sequence cache of.
 
 
 ### Examples
@@ -36,6 +36,6 @@ Field | Type | Default | Description
 
 
 
-[Entity Action Type]: ../entity_action_types.md
-[Action on Key Sequence]: ../power_types/action_on_key_sequence.md
-[Identifier]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
+[1]: ../entity_action_types.md
+[2]: ../power_types/action_on_key_sequence.md
+[3]: https://origins.readthedocs.io/en/latest/types/data_types/identifier

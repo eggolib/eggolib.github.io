@@ -11,7 +11,7 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 
 !!! note
 
-    See the documentation for **[Origins/Apoli's data types]** for a list of data types added by Origins/Apoli.
+    See the documentation for [**Origins/Apoli's data types**][1] for a list of data types added by Origins/Apoli.
 
 
 ### List
@@ -24,4 +24,4 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 
 
 
-[Origins/Apoli's data types]: https://origins.readthedocs.io/en/latest/types/data_types
+[1]: https://origins.readthedocs.io/en/latest/types/data_types
