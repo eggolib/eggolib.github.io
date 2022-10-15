@@ -21,6 +21,7 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 * [**Inventory**](power_types/inventory.md)
 * [**Invisibility**](power_types/invisibility.md)
 * [**Model Flip**](power_types/model_flip.md)
+* [**Starting Equipment**](power_types/starting_equipment.md)
 
 
 ### Action-related
