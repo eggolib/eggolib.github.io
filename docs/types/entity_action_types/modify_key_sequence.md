@@ -26,7 +26,7 @@ Type ID: `eggolib:modify_key_sequence`
     * `"append"`  - Adds the specified keys to the last index of the current key sequence.
     * `"insert"`  - Inserts the specified keys to the specified index of the current key sequence.
     * `"prepend"` - Adds the specified keys to the first index of the current key sequence.
-    * `"remove"`  - Removes the specified keys from the specified index.
+    * `"remove"`  - Removes the specified keys from the current key sequence. If there are no keys specified, remove the key from the specified index instead.
     * `"set"`     - Replace the current key sequence with the specified key sequence.
 
 
