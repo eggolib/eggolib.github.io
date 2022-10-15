@@ -19,7 +19,7 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Calculate Resource**](entity_action_types/calculate_resource.md)
 * [**Change Health**](entity_action_types/change_health.md)
 * [**Change Insomnia Ticks**](entity_action_types/change_insomnia_ticks.md)
-* [**Clear Key Cache**](entity_action_types/clear_key_cache.md)
+* [**Clear Key Cache (DEPRECATED)**](entity_action_types/clear_key_cache.md)
 * [**Close Screen**](entity_action_types/close_screen.md)
 * [**Damage**](entity_action_types/damage.md)
 * [**Drop Inventory**](entity_action_types/drop_inventory.md)
