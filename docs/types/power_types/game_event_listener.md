@@ -16,7 +16,7 @@ Type ID: `eggolib:game_event_listener`
 
 !!! note
 
-    See [Minecraft Fandom: Sculk Sensor (Vibration amplitudes)][2] for a list of vanilla game events you can use.
+    See [**Minecraft Fandom: Sculk Sensor (Vibration amplitudes)**][2] for a list of vanilla game events you can use.
 
 
 !!! note
@@ -26,7 +26,7 @@ Type ID: `eggolib:game_event_listener`
 
 !!! warning
 
-    Currently, this power type does not allow for both the `bientity_condition` and `block_condition` fields to be present. One will have to choose **one** of the fields
+    Currently, this power type does not allow for both the `bientity_condition` and `block_condition` fields to be present. One will have to choose **one** of the fields:
 
     * `bientity_condition` - the power will only listen to game events emitted by entities.
     * `block_condition` - the power will only listen to game events emitted by blocks.
