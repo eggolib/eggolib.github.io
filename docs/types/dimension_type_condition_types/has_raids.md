@@ -28,3 +28,7 @@ _None._
         "type": "eggolib:has_raids"
     }
     ```
+
+
+
+[1]: ../dimension_type_condition_types.md
