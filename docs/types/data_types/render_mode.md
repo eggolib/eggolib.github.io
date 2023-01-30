@@ -1,6 +1,6 @@
 ---
 title: Render Mode (Data Type)
-date: 2022-01-30
+date: 2023-01-30
 search:
     boost: 2
 ---
