@@ -12,6 +12,8 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 
 ### List
 
+* [**Ambient Light**](dimension_type_condition_types/ambient_light.md)
+
 
 
 [1]: https://origins.readthedocs.io/en/latest/types/data_types/object
