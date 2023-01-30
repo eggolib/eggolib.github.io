@@ -28,6 +28,7 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 * [**Logical Height**](dimension_type_condition_types/logical_height.md)
 * [**Min Y**](dimension_type_condition_types/min_y.md)
 * [**Monster Spawn Block Light Limit**](dimension_type_condition_types/monster_spawn_block_light_limit.md)
+* [**Respawn Anchor Works**](dimension_type_condition_types/respawn_anchor_works.md)
 
 
 
