@@ -14,6 +14,7 @@ nav:
     - Bi-entity Condition Types: types/bientity_condition_types.md
     - Block Condition Types: types/block_condition_types.md
     - Damage Condition Types: types/damage_condition_types.md
+    - Dimension Type Condition Types: types/dimension_type_condition_types.md
     - Entity Condition Types: types/entity_condition_types.md
     - Item Condition Types: types/item_condition_types.md
     - Meta Condition Types: types/meta_condition_types.md
