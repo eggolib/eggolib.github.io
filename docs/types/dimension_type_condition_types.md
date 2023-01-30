@@ -23,6 +23,7 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 * [**Height**](dimension_type_condition_types/height.md)
 * [**Infiniburn**](dimension_type_condition_types/infiniburn.md)
 * [**Is Natural**](dimension_type_condition_types/is_natural.md)
+* [**Is Piglin Safe**](dimension_type_condition_types/is_piglin_safe.md)
 
 
 
