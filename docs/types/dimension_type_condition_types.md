@@ -13,6 +13,7 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 ### List
 
 * [**Ambient Light**](dimension_type_condition_types/ambient_light.md)
+* [**Bed Works**](dimension_type_condition_types/bed_works.md)
 
 
 
