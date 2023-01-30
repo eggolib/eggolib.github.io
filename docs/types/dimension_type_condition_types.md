@@ -25,6 +25,7 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 * [**Is Natural**](dimension_type_condition_types/is_natural.md)
 * [**Is Piglin Safe**](dimension_type_condition_types/is_piglin_safe.md)
 * [**Is Ultrawarm**](dimension_type_condition_types/is_ultrawarm.md)
+* [**Logical Height**](dimension_type_condition_types/logical_height.md)
 
 
 
