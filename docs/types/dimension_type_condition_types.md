@@ -7,7 +7,7 @@ search:
 
 #   Dimension Type Condition Types
 
-Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allowing to check the dimension type properties of a certain dimension. These are available to power/condition types that provides a `dimension_type_condition_type` [**object**][1] field.
+Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allowing to check the dimension type properties of a certain dimension. These are available to power/condition types that provides a `dimension_type_condition` [**object**][1] field.
 
 
 ### List
