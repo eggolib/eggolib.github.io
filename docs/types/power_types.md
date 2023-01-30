@@ -29,6 +29,7 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 * [**Action on Block Place**](power_types/action_on_block_place.md)
 * [**Action on Item Pickup**](power_types/action_on_item_pickup.md)
 * [**Action on Key Sequence**](power_types/action_on_key_sequence.md)
+* [**Game Event Listener**](power_types/game_event_listener.md)
 
 
 ### Modifying types
