@@ -20,6 +20,7 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 * [**Breaking Block**](entity_condition_types/breaking_block.md)
 * [**Has Tag**](entity_condition_types/has_tag.md)
 * [**In Screen**](entity_condition_types/in_screen.md)
+* [**In Team**](entity_condition_types/in_team.md)
 * [**Inventory**](entity_condition_types/inventory.md)
 * [**Permission Level**](entity_condition_types/permission_level.md)
 * [**Perspective**](entity_condition_types/perspective.md)
