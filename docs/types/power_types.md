@@ -34,6 +34,7 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 ### Modifying types
 
 * [**Modify Hurt Ticks**](power_types/modify_hurt_ticks.md)
+* [**Modify Label Render**](power_types/modify_label_render.md)
 
 
 ### Preventing types
