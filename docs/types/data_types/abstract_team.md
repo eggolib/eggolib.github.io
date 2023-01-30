@@ -18,7 +18,7 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `name` | [**String**][3] | *optional* | The name of the team.
 `friendly_fire` | [**Boolean**][4] | *optional* | Determines whether the team should allow friendly fire or not.
-`show_friendly_invisibles` | [**Boolean**][4] | *optional* | Determines whether the team should show friendlies that are invisible.
+`show_friendly_invisibles` | [**Boolean**][4] | *optional* | Determines whether the team should show teammates that are invisible.
 `nametag_visibility` | [**Visibility Rule**][5] | *optional* | Determines the visibility for the nametag of the entities within the team.
 `death_message_visibility` | [**Visibility Rule**][5] | *optional* | Determines the visibility for the death message of the entities within the team.
 `collision_rule` | [**Collision Rule**][6] | *optional* | Determines how entity collision behaves for the entities within the team.
