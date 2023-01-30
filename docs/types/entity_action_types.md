@@ -31,6 +31,7 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Remove Power**](entity_action_types/remove_power.md)
 * [**Replace Inventory**](entity_action_types/replace_inventory.md)
 * [**Set Perspective**](entity_action_types/set_perspective.md)
+* [**Spawn Entity**](entity_action_types/spawn_entity.md)
 
 
 
