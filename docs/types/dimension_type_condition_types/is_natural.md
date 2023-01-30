@@ -33,3 +33,7 @@ _None._
         "type": "eggolib:is_natural"
     }
     ```
+
+
+
+[1]: ../dimension_type_condition_types.md
