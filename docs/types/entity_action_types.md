@@ -28,6 +28,7 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Modify Inventory**](entity_action_types/modify_inventory.md)
 * [**Modify Key Sequence**](entity_action_types/modify_key_sequence.md)
 * [**Open Inventory**](entity_action_types/open_inventory.md)
+* [**Play Sound**](entity_action_types/play_sound.md)
 * [**Remove Power**](entity_action_types/remove_power.md)
 * [**Replace Inventory**](entity_action_types/replace_inventory.md)
 * [**Set Perspective**](entity_action_types/set_perspective.md)
