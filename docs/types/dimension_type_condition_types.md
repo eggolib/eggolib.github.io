@@ -21,6 +21,7 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 * [**Has Raids**](dimension_type_condition_types/has_raids.md)
 * [**Has Skylight**](dimension_type_condition_types/has_skylight.md)
 * [**Height**](dimension_type_condition_types/height.md)
+* [**Infiniburn**](dimension_type_condition_types/infiniburn.md)
 
 
 
