@@ -9,24 +9,20 @@
       
       
       
-        <link rel="prev" href="../block_action_types/">
       
-      
-        <link rel="next" href="../meta_action_types/">
-      
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.8">
     
     
       
-        <title>Entity Action Types - eggolib Documentation</title>
+        <title>Spawn Entity - eggolib Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.0d440cfe.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0d440cfe.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.2505c338.min.css">
       
       
 
@@ -42,9 +38,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#entity_action_types" class="md-skip">
+        <a href="#spawn_entity" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +87,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="eggolib Documentation" class="md-header__button md-logo" aria-label="eggolib Documentation" data-md-component="logo">
+    <a href="../../.." title="eggolib Documentation" class="md-header__button md-logo" aria-label="eggolib Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -110,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Entity Action Types
+              Spawn Entity
             
           </span>
         </div>
@@ -201,7 +197,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="eggolib Documentation" class="md-nav__button md-logo" aria-label="eggolib Documentation" data-md-component="logo">
+    <a href="../../.." title="eggolib Documentation" class="md-nav__button md-logo" aria-label="eggolib Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -220,7 +216,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -270,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../data_types/" class="md-nav__link">
+      <a href="../../data_types/" class="md-nav__link">
         Data Types
       </a>
     </li>
@@ -284,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../power_types/" class="md-nav__link">
+      <a href="../../power_types/" class="md-nav__link">
         Power Types
       </a>
     </li>
@@ -304,16 +300,16 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
       
       
         
@@ -332,7 +328,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Action Types
@@ -345,7 +341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bientity_action_types/" class="md-nav__link">
+      <a href="../../bientity_action_types/" class="md-nav__link">
         Bi-entity Action Types
       </a>
     </li>
@@ -359,7 +355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../block_action_types/" class="md-nav__link">
+      <a href="../../block_action_types/" class="md-nav__link">
         Block Action Types
       </a>
     </li>
@@ -371,52 +367,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Entity Action Types
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
         Entity Action Types
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#list" class="md-nav__link">
-    List
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -428,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../meta_action_types/" class="md-nav__link">
+      <a href="../../meta_action_types/" class="md-nav__link">
         Meta Action Types
       </a>
     </li>
@@ -495,7 +450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bientity_condition_types/" class="md-nav__link">
+      <a href="../../bientity_condition_types/" class="md-nav__link">
         Bi-entity Condition Types
       </a>
     </li>
@@ -509,7 +464,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../block_condition_types/" class="md-nav__link">
+      <a href="../../block_condition_types/" class="md-nav__link">
         Block Condition Types
       </a>
     </li>
@@ -523,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../damage_condition_types/" class="md-nav__link">
+      <a href="../../damage_condition_types/" class="md-nav__link">
         Damage Condition Types
       </a>
     </li>
@@ -537,7 +492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dimension_type_condition_types/" class="md-nav__link">
+      <a href="../../dimension_type_condition_types/" class="md-nav__link">
         Dimension Type Condition Types
       </a>
     </li>
@@ -551,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../entity_condition_types/" class="md-nav__link">
+      <a href="../../entity_condition_types/" class="md-nav__link">
         Entity Condition Types
       </a>
     </li>
@@ -565,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../item_condition_types/" class="md-nav__link">
+      <a href="../../item_condition_types/" class="md-nav__link">
         Item Condition Types
       </a>
     </li>
@@ -579,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../meta_condition_types/" class="md-nav__link">
+      <a href="../../meta_condition_types/" class="md-nav__link">
         Meta Condition Types
       </a>
     </li>
@@ -634,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../misc/class_data_registries/" class="md-nav__link">
+      <a href="../../../misc/class_data_registries/" class="md-nav__link">
         Class Data Registries
       </a>
     </li>
@@ -675,8 +630,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#list" class="md-nav__link">
-    List
+  <a href="#field" class="md-nav__link">
+    Field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    Examples
   </a>
   
 </li>
@@ -697,31 +659,68 @@
 
 
 
-<h1 id="entity_action_types">Entity Action Types</h1>
-<p>Entity action types operate on an <code>Entity</code>. Some entity action types only affect certain entity types. These are available to power/action types that provides an <code>entity_action</code> <a href="https://origins.readthedocs.io/en/latest/types/data_types/object"><strong>object</strong></a> field.</p>
+<h1 id="spawn_entity">Spawn Entity</h1>
+<p><a href="../"><strong>Entity Action Type</strong></a></p>
+<p>Spawns an entity.</p>
+<p>Type ID: <code>eggolib:spawn_entity</code></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>See the documentation for <a href="https://origins.readthedocs.io/en/latest/types/entity_action_types"><strong>Origins/Apoli's entity action types</strong></a> for a list of entity action types added by Origins/Apoli.</p>
+<p>This action type can spawn in entities with passengers.</p>
 </div>
-<h3 id="list">List</h3>
-<ul>
-<li><a href="calculate_resource/"><strong>Calculate Resource</strong></a></li>
-<li><a href="change_health/"><strong>Change Health</strong></a></li>
-<li><a href="change_insomnia_ticks/"><strong>Change Insomnia Ticks</strong></a></li>
-<li><a href="clear_key_cache/"><strong>Clear Key Cache (DEPRECATED)</strong></a></li>
-<li><a href="close_screen/"><strong>Close Screen</strong></a></li>
-<li><a href="damage/"><strong>Damage</strong></a></li>
-<li><a href="drop_inventory/"><strong>Drop Inventory</strong></a></li>
-<li><a href="fire_projectile/"><strong>Fire Projectile</strong></a></li>
-<li><a href="modify_health/"><strong>Modify Health</strong></a></li>
-<li><a href="modify_inventory/"><strong>Modify Inventory</strong></a></li>
-<li><a href="modify_key_sequence/"><strong>Modify Key Sequence</strong></a></li>
-<li><a href="open_inventory/"><strong>Open Inventory</strong></a></li>
-<li><a href="remove_power/"><strong>Remove Power</strong></a></li>
-<li><a href="replace_inventory/"><strong>Replace Inventory</strong></a></li>
-<li><a href="set_perspective/"><strong>Set Perspective</strong></a></li>
-<li><a href="spawn_entity/"><strong>Spawn Entity</strong></a></li>
-</ul>
+<h3 id="field">Field</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>entity_type</code></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/identifier"><strong>Identifier</strong></a></td>
+<td></td>
+<td>The identifier of the entity that will be spawned.</td>
+</tr>
+<tr>
+<td><code>tag</code></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/string"><strong>String</strong></a></td>
+<td><em>optional</em></td>
+<td>If specified, this NBT data will be added to the entity that will be spawned.</td>
+</tr>
+<tr>
+<td><code>entity_action</code></td>
+<td><a href="../"><strong>Entity Action Type</strong></a></td>
+<td><em>optional</em></td>
+<td>If specified, this action will be executed on the entity that will be spawned.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="examples">Examples</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Example #1</label><label for="__tabbed_1_2">Example #2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">&quot;entity_action&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;eggolib:spawn_entity&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">&quot;entity_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:skeleton&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">&quot;tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;{ArmorItems: [{}, {}, {}, {id: \&quot;minecraft:iron_helmet\&quot;, Count: 1b}]}&quot;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</code></pre></div>
+<p>This example will spawn a Skeleton with an Iron Helmet.</p>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&quot;entity_action&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;eggolib:spawn_entity&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">&quot;entity_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minecraft:skeleton_horse&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">&quot;tag&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;{Passengers: [{id: \&quot;minecraft:skeleton\&quot;, ArmorItems: [{}, {}, {}, {id: \&quot;minecraft:golden_helmet\&quot;, Count: 1b}]}]}&quot;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">}</span>
+</code></pre></div>
+<p>This example will spawn a Skeleton Horse with a Skeleton passenger equipped with a Golden Helmet.</p>
+</div>
+</div>
+</div>
 
 
 
@@ -766,10 +765,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tabs.link", "navigation.expand", "navigation.instant", "navigation.indexes", "navigation.top", "search.share"], "search": "../../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tabs.link", "navigation.expand", "navigation.instant", "navigation.indexes", "navigation.top", "search.share"], "search": "../../../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
       
     
   </body>
