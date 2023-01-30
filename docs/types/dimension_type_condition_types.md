@@ -17,6 +17,7 @@ Dimension type condition types operate on a `RegistryEntry<DimensionType>`, allo
 * [**Coordinate Scale**](dimension_type_condition_types/coordinate_scale.md)
 * [**Effects**](dimension_type_condition_types/effects.md)
 * [**Fixed Time**](dimension_type_condition_types/fixed_time.md)
+* [**Has Ceiling**](dimension_type_condition_types/has_ceiling.md)
 
 
 
