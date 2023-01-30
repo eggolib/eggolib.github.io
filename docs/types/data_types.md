@@ -24,6 +24,7 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 * [**Math Operation**](data_types/math_operation.md)
 * [**Perspective**](data_types/perspective.md)
 * [**Scoreboard**](data_types/scoreboard.md)
+* [**Visibility Rule**](data_types/visibility_rule.md)
 
 
 
