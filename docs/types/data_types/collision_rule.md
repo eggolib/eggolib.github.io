@@ -22,7 +22,7 @@ Value | Description
 ------|------------
 `always` | The default behavior.
 `never` | No entities can push entities in the team.
-`pushOtherTeams` | Only entities in different teams can push each other.
+`pushOtherTeams` | Only entities from another team can push the entities in the team.
 `pushOwnTeam` | Only entities in the team can push each other.
 
 
