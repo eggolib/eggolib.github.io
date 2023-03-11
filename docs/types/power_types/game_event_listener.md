@@ -101,11 +101,14 @@ Field | Type | Default | Description
     {
         "type": "eggolib:game_event_listener",
         "bientity_action": {
-            "type": "apoli:apply_effect",
-            "effect": {
-                "effect": "minecraft:darkness",
-                "amplifier": 1,
-                "duration": 100
+            "type": "apoli:target_action",
+            "action": {
+                "type": "apoli:apply_effect",
+                "effect": {
+                    "effect": "minecraft:darkness",
+                    "amplifier": 1,
+                    "duration": 100
+                }
             }
         },
         "bientity_condition": {
