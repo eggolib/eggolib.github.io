@@ -62,6 +62,33 @@ Field | Type | Default | Description
     This example will heal the entity that invoked the action depending on the score of the `amountOfHeals` score holder in the `example` scoreboard objective. If it doesn't exist, the action will simply do nothing.
 
 
+=== "Example #3"
+
+    ```json
+    "entity_action": {
+        "type": "eggolib:loop",
+        "before_action": {
+            "type": "apoli:execute_command",
+            "command": "tag @s add temp"
+        },
+        "action": {
+            "type": "apoli:heal",
+            "amount": 2
+        },
+        "after_action": {
+            "type": "apoli:execute_command",
+            "command": "tag @s remove temp"
+        },
+        "score": {
+            "name": "@e[tag = temp, limit = 1]",
+            "objective": "example"
+        }
+    }
+    ```
+
+    This example will heal the entity that invoked the action depending on the score of the said entity in the `example` scoreboard objective.
+
+
 
 [1]: ../meta_condition_types.md
 [2]: https://origins.readthedocs.io/en/latest/types/action_types
