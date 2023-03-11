@@ -18,6 +18,7 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 
 ### Regular types
 
+* [**Crawling**](power_types/crawling.md)
 * [**Inventory**](power_types/inventory.md)
 * [**Invisibility**](power_types/invisibility.md)
 * [**Model Flip**](power_types/model_flip.md)
