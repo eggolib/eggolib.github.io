@@ -24,14 +24,6 @@ Type ID: `eggolib:game_event_listener`
     In the context of this power, the 'actor' will be the entity that emitted the game event whilst the 'target' will be the entity that has the power.
 
 
-!!! warning
-
-    Currently, this power type does not allow for both the `bientity_condition` and `block_condition` fields to be present. One will have to choose **one** of the fields:
-
-    * `bientity_condition` - the power will only listen to game events emitted by entities.
-    * `block_condition` - the power will only listen to game events emitted by blocks.
-
-
 ### Fields
 
 Field | Type | Default | Description
@@ -46,6 +38,7 @@ Field | Type | Default | Description
 `event` | [**Identifier**][8] | *optional* | If specified, the power will only listen to this game event.
 `events` | [**Array**][9] of [**Identifiers**][8] | *optional* | If specified, the power will only listen to these game events.
 `tag` | [**Identifier**][8] | *optional* | If specified, the power will only listen to the game events included in this game event tag.
+`show_particle` | [**Boolean**][10] | `true` | Determines whether the vibration particle is spawned when a game event is accepted.
 
 
 ### Examples
@@ -102,6 +95,41 @@ Field | Type | Default | Description
     This example will damage Creepers emitting a `minecraft:step` vibration *(via walking)* within a 16 blocks radius.
 
 
+=== "Example #3"
+
+    ```json
+    {
+        "type": "eggolib:game_event_listener",
+        "bientity_action": {
+            "type": "apoli:apply_effect",
+            "effect": {
+                "effect": "minecraft:darkness",
+                "amplifier": 1,
+                "duration": 100
+            }
+        },
+        "bientity_condition": {
+            "type": "apoli:and",
+            "conditions": [
+                {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:exists"
+                    }
+                },
+                {
+                    "type": "eggolib:equal",
+                    "inverted": true
+                }
+            ]
+        },
+        "show_particle": false
+    }
+    ```
+
+    This example will apply the Darkness II (00:05) status effect to entities *(except the entity that has the power)* within a 16 blocks radius without showing the Vibration particle.
+
+
 
 [1]: ../power_types.md
 [2]: https://minecraft.fandom.com/wiki/Sculk_Sensor#Vibration_amplitudes
@@ -112,3 +140,4 @@ Field | Type | Default | Description
 [7]: https://origins.readthedocs.io/en/latest/types/data_types/hud_render
 [8]: https://origins.readthedocs.io/en/latest/types/data_types/identifier
 [9]: https://origins.readthedocs.io/en/latest/types/data_types/array
+[10]: https://origins.readthedocs.io/en/latest/types/data_types/boolean
