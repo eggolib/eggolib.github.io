@@ -24,7 +24,8 @@ Type ID: `eggolib:invisibility`
 Field | Type | Default | Description
 ------|------|---------|------------
 `bientity_condition` | [**Bi-entity Condition Type**][2] | *optional* | If specified, the '**target**' entity will only be invisible to the '**actor**' entities if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
-`render_armor` | [**Boolean**][3] | | Determines if the armor should also be invisible.
+`render_armor` | [**Boolean**][3] | `false` | Determines if the armor should also be invisible.
+`render_outline` | [**Boolean**][3] | `false` | Determines if the glowing outline should also be invisible.
 
 
 ### Examples
