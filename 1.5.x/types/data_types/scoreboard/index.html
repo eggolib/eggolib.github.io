@@ -667,10 +667,6 @@
 <p class="admonition-title">Note</p>
 <p>If the score holder referenced in the <code>name</code> field does not exist, the data type will return a value of 0.</p>
 </div>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>Currently, the <code>name</code> field of the data type does <strong>not</strong> accept target selectors.</p>
-</div>
 <h3 id="fields">Fields</h3>
 <table>
 <thead>
@@ -686,7 +682,7 @@
 <td><code>name</code></td>
 <td><a href="https://origins.readthedocs.io/en/latest/types/data_types/string">String</a></td>
 <td></td>
-<td>The name of the score holder.</td>
+<td>The name of the score holder or a target selector.</td>
 </tr>
 <tr>
 <td><code>objective</code></td>
@@ -697,7 +693,7 @@
 </tbody>
 </table>
 <h3 id="examples">Examples</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Example #1</label><label for="__tabbed_1_2">Example #2</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Example #1</label><label for="__tabbed_1_2">Example #2</label><label for="__tabbed_1_3">Example #3</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">&quot;score&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
@@ -714,6 +710,14 @@
 <a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="p">}</span>
 </code></pre></div>
 <p>This example will get the score of the <code>#hiddenScoreHolder</code> score holder from the <code>example</code> scoreboard objective.</p>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&quot;score&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;@e[tag = test, limit = 1]&quot;</span><span class="p">,</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;objective&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;example&quot;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</code></pre></div>
+<p>This example will get the score of the entity that has the <code>test</code> tag from the <code>example</code> scoreboard objective.</p>
 </div>
 </div>
 </div>
