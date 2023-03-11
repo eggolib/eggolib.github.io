@@ -23,6 +23,7 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 * [**Generalized Positioned Item Stack**](data_types/generalized_positioned_item_stack.md)
 * [**Key**](data_types/key.md)
 * [**Math Operation**](data_types/math_operation.md)
+* [**Moon Phase**](data_types/moon_phase.md)
 * [**Perspective**](data_types/perspective.md)
 * [**Positive Integer**](data_types/positive_integer.md)
 * [**Render Mode**](data_types/render_mode.md)
