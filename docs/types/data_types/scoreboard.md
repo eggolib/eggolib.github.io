@@ -15,16 +15,12 @@ An [object][2] used for getting the score of a score holder from a scoreboard ob
 
     If the score holder referenced in the `name` field does not exist, the data type will return a value of 0.
 
-!!! caution
-
-    Currently, the `name` field of the data type does **not** accept target selectors.
-
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`name` | [String][3] | | The name of the score holder.
+`name` | [String][3] | | The name of the score holder or a target selector.
 `objective` | [String][3] | | The name of the scoreboard objective.
 
 
@@ -52,6 +48,18 @@ Field | Type | Default | Description
     ```
 
     This example will get the score of the `#hiddenScoreHolder` score holder from the `example` scoreboard objective.
+
+
+=== "Example #3"
+
+    ```json
+    "score": {
+        "name": "@e[tag = test, limit = 1]",
+        "objective": "example"
+    }
+    ```
+
+    This example will get the score of the entity that has the `test` tag from the `example` scoreboard objective.
 
 
 
