@@ -47,7 +47,6 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 * [**Prevent Block Place**](power_types/prevent_block_place.md)
 * [**Prevent Critical Hit**](power_types/prevent_critical_hit.md)
 * [**Prevent Item Pickup**](power_types/prevent_item_pickup.md)
-* [**Prevent Item Use**](power_types/prevent_item_use.md)
 
 
 
