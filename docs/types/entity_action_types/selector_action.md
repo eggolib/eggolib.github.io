@@ -17,6 +17,11 @@ Type ID: `eggolib:selector_action`
 !!! note
 
     See [**Minecraft Fandom Wiki: Target selectors**][2] for more information about target selectors.
+    
+
+!!! note
+
+    In the context of this action type, the actor entity will be the entity that invoked the action while the target entity/entities will be the entities selected by the specified target selector.
 
 
 ### Fields
