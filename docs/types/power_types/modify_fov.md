@@ -11,7 +11,7 @@ search:
 
 Modifies the field of view of the entity that has the power.
 
-Type ID: eggolib:modify_fov
+Type ID: `eggolib:modify_fov`
 
 
 ### Fields
