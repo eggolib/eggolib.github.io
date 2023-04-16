@@ -661,12 +661,12 @@
 
 
 <h1 id="damage">Damage</h1>
-<p><a href="../">Entity Action Type</a></p>
+<p><a href="../"><strong>Entity Action Type</strong></a></p>
 <p>Deals damage to the entity.</p>
 <p>Type ID: <code>eggolib:damage</code></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If the <code>modifier</code> field is specified, the max health of the entity will be used as the base value in the modifier.</p>
+<p>If the <code>modifier</code> or <code>modifiers</code> field is specified, the max health of the entity will be used as the base value for the modifier(s).</p>
 </div>
 <h3 id="fields">Fields</h3>
 <table>
@@ -681,21 +681,27 @@
 <tbody>
 <tr>
 <td><code>amount</code></td>
-<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/float">Float</a></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/float"><strong>Float</strong></a></td>
 <td><em>optional</em></td>
 <td>If specified, this amount of damage will be dealt to the entity.</td>
 </tr>
 <tr>
 <td><code>source</code></td>
-<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/damage_source">Damage Source</a></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/damage_source"><strong>Damage Source</strong></a></td>
 <td></td>
 <td>Determines the source for the damage to be used. Controls the death message, invulnerabilities or whether the armor should be taken into account.</td>
 </tr>
 <tr>
 <td><code>modifier</code></td>
-<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier">Attribute Modifier</a></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier"><strong>Attribute Modifier</strong></a></td>
 <td><em>optional</em></td>
-<td>If specified, this modifier and its value will be used as the amount of damage that will be dealt to the entity.</td>
+<td>If specified, this modifier will be applied to the damage dealt to the entity.</td>
+</tr>
+<tr>
+<td><code>modifiers</code></td>
+<td><a href="https://origins.readthedocs.io/en/latest/types/data_types/array"><strong>Array</strong></a> of <a href="https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier"><strong>Attribute Modifiers</strong></a></td>
+<td><em>optional</em></td>
+<td>If specified, these modifiers will be applied to the damage dealt to the entity.</td>
 </tr>
 </tbody>
 </table>
