@@ -16,7 +16,7 @@ Type ID: `eggolib:damage`
 
 !!! note
 
-    If the `modifier` field is specified, the max health of the target entity will be used as the base value in the modifier.
+    If the `modifier` or `modifiers` field is specified, the max health of the entity will be used as the base value for the modifier(s).
 
 
 ### Fields
@@ -25,7 +25,8 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `amount` | [**Float**][2] | *optional* | If specified, this amount of damage will be dealt to the target entity.
 `source` | [**Damage Source**][3] | | Determines the source for the damage to be used. Controls the death message, invulnerabilities or whether armor should be taken into account.
-`modifier` | [**Attribute Modifier**][4] | *optional* | If specified, this modifier and its value will be used as the amount of damage that will be dealt to the target entity.
+`modifier` | [**Attribute Modifier**][4] | *optional* | If specified, this modifier will be applied to the damage dealt to the target entity.
+`modifiers` | [**Array**][5] of [**Attribute Modifiers**][4] | *optional* | If specified, these modifiers will be applied to the damage dealt to the target entity.
 
 
 ### Examples
@@ -69,3 +70,4 @@ Field | Type | Default | Description
 [2]: https://origins.readthedocs.io/en/latest/types/data_types/float
 [3]: https://origins.readthedocs.io/en/latest/types/data_types/damage_source
 [4]: https://origins.readthedocs.io/en/latest/types/data_types/attribute_modifier
+[5]: https://origins.readthedocs.io/en/latest/types/data_types/array
