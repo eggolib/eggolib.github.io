@@ -26,6 +26,7 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 * [**Moon Phase**](data_types/moon_phase.md)
 * [**Perspective**](data_types/perspective.md)
 * [**Positive Integer**](data_types/positive_integer.md)
+* [**Precipitation**](data_types/precipitation.md)
 * [**Render Mode**](data_types/render_mode.md)
 * [**Scoreboard**](data_types/scoreboard.md)
 * [**Sound Category**](data_types/sound_category.md)
