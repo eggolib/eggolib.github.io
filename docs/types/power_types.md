@@ -38,6 +38,7 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 
 * [**Modify Bounciness**](power_types/modify_bounciness.md)
 * [**Modify Breathing**](power_types/modify_breathing.md)
+* [**Modify FOV**](power_types/modify_fov.md)
 * [**Modify Hurt Ticks**](power_types/modify_hurt_ticks.md)
 * [**Modify Label Render**](power_types/modify_label_render.md)
 * [**Modify Mouse Sensitivity**](power_types/modify_mouse_sensitivity.md)
