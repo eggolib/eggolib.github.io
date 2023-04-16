@@ -11,7 +11,7 @@ search:
 
 Checks if the entity is exposed to the sky and certain weather.
 
-Type ID: eggolib:exposed_to_weather
+Type ID: `eggolib:exposed_to_weather`
 
 
 ### Fields
