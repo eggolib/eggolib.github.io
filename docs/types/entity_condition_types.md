@@ -20,6 +20,7 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 * [**Breaking Block**](entity_condition_types/breaking_block.md)
 * [**Crawling**](power_types/crawling.md)
 * [**Exposed to Weather**](entity_condition_types/exposed_to_weather.md)
+* [**Has Spawn Point**](entity_condition_types/has_spawn_point.md)
 * [**Has Tag**](entity_condition_types/has_tag.md)
 * [**In Block**](entity_condition_types/in_block.md)
 * [**In Screen**](entity_condition_types/in_screen.md)
