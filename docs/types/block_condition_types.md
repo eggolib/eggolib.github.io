@@ -18,6 +18,7 @@ Block condition types operate on a `CachedBlockPosition`, essentially a combinat
 ### List
 
 * [**Air**](block_condition_types/air.md)
+* [**Command**](block_condition_types/command.md)
 
 
 
