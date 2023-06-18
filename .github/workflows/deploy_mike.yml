@@ -5,7 +5,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the "latest" branch
   push:
     branches:
-      - 1.6.x
+      - 1.7.x
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -25,7 +25,7 @@ git clone https://github.com/generic-username123/eggolib.github.io
 To view your changes, you'll have to deploy it locally with `mike deploy <version>` before serving it on `http://localhost:8000` with `mike serve`:
 
 ```python
-mike deploy 1.3.x
+mike deploy 1.7.x
 
 mike serve
 ```
