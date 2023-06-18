@@ -7,7 +7,7 @@ search:
 
 #   Item Action Types
 
-Item action types operate on a Pair<World, ItemStack>, which allows for modification of the item stack and accessing data from the world. These are available to power/action types that provide an `item_action` [**object**][1] field.
+Item action types operate on a `Pair<World, ItemStack>`, which allows for modification of the item stack and accessing data from the world. These are available to power/action types that provide an `item_action` [**object**][1] field.
 
 
 !!! note
