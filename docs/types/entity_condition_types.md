@@ -25,6 +25,7 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 * [**In Screen**](entity_condition_types/in_screen.md)
 * [**In Snow**](entity_condition_types/in_snow.md)
 * [**In Team**](entity_condition_types/in_team.md)
+* [**In Thunderstorm**](entity_condition_types/in_thunderstorm.md)
 * [**Inventory**](entity_condition_types/inventory.md)
 * [**Moon Phase**](entity_condition_types/moon_phase.md)
 * [**Permission Level**](entity_condition_types/permission_level.md)
