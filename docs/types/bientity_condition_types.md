@@ -16,6 +16,7 @@ Bi-entity condition types operate on a `Pair<Entity, Entity>` or in simpler term
 
 ### List
 
+* [**Colliding**](bientity_condition_types/colliding.md)
 * [**Compare Score**](bientity_condition_types/compare_score.md)
 * [**Equal**](bientity_condition_types/equal.md)
 * [**Has Matching Tag**](bientity_condition_types/has_matching_tag.md)
