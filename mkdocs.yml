@@ -9,6 +9,7 @@ nav:
     - Bi-entity Action Types: types/bientity_action_types.md
     - Block Action Types: types/block_action_types.md
     - Entity Action Types: types/entity_action_types.md
+    - Item Action Types: types/item_action_types.md
     - Meta Action Types: types/meta_action_types.md
   - Condition Types:
     - Bi-entity Condition Types: types/bientity_condition_types.md
