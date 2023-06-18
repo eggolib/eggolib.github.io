@@ -23,6 +23,7 @@ Entity condition types operate on an `Entity`, which allows access to the `World
 * [**Has Tag**](entity_condition_types/has_tag.md)
 * [**In Block**](entity_condition_types/in_block.md)
 * [**In Screen**](entity_condition_types/in_screen.md)
+* [**In Snow**](entity_condition_types/in_snow.md)
 * [**In Team**](entity_condition_types/in_team.md)
 * [**Inventory**](entity_condition_types/inventory.md)
 * [**Moon Phase**](entity_condition_types/moon_phase.md)
