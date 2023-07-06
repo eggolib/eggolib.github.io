@@ -23,6 +23,7 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Damage**](entity_action_types/damage.md)
 * [**Drop Inventory**](entity_action_types/drop_inventory.md)
 * [**Fire Projectile**](entity_action_types/fire_projectile.md)
+* [**Grant Advancement**](entity_action_types/grant_advancement.md)
 * [**Modify Health**](entity_action_types/modify_health.md)
 * [**Modify Inventory**](entity_action_types/modify_inventory.md)
 * [**Modify Key Sequence**](entity_action_types/modify_key_sequence.md)
