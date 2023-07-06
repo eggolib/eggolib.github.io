@@ -24,6 +24,7 @@ Unless stated otherwise, each power type supports a `condition` [**object**][1] 
 * [**Model Flip**](power_types/model_flip.md)
 * [**Starting Equipment**](power_types/starting_equipment.md)
 * [**Stat**](power_types/stat.md)
+* [**Tooltip**](power_types/tooltip.md)
 
 
 ### Action-related
