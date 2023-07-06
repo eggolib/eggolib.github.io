@@ -19,6 +19,7 @@ Data types are used everywhere in JSON files. Every field in a JSON file have a 
 * [**Abstract Team**](data_types/abstract_team.md)
 * [**Advancement Selection**](data_types/advancement_selection.md)
 * [**Collision Rule**](data_types/collision_rule.md)
+* [**Copy Operation**](data_types/copy_operation.md)
 * [**Entity Offset**](data_types/entity_offset.md)
 * [**Functional Key**](data_types/functional_key.md)
 * [**Generalized Positioned Item Stack**](data_types/generalized_positioned_item_stack.md)
