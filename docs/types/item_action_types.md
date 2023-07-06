@@ -17,6 +17,7 @@ Item action types operate on a `Pair<World, ItemStack>`, which allows for modifi
 
 ### List
 
+* [**Execute Command**](item_action_types/execute_command.md)
 * [**Modify**](item_action_types/modify.md)
 
 
