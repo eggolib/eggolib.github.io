@@ -31,6 +31,7 @@ Entity action types operate on an `Entity`. Some entity action types only affect
 * [**Play Sound**](entity_action_types/play_sound.md)
 * [**Remove Power**](entity_action_types/remove_power.md)
 * [**Replace Inventory**](entity_action_types/replace_inventory.md)
+* [**Revoke Advancement**](entity_action_types/revoke_advancement.md)
 * [**Selector Action**](entity_action_types/selector_action.md)
 * [**Set Perspective**](entity_action_types/set_perspective.md)
 * [**Spawn Entity**](entity_action_types/spawn_entity.md)
