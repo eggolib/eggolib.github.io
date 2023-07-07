@@ -18,6 +18,7 @@ Damage condition types operate on a `Pair<DamageSource, Float>`, allowing to che
 
 * [**NBT**](damage_condition_types/nbt.md)
 * [**Projectile**](damage_condition_types/projectile.md)
+* [**Type**](damage_condition_types/type.md)
 
 
 
