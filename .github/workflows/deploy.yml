@@ -1,17 +1,17 @@
 name: Deploy version
 
 on:
+  
+  # Trigger the workflow if any pushes have been made to...
   push:
 
-    # Trigger the workflow if any pushes have been made to branches
-    # other than these ones
+    # ..the branches that are not 'master' or 'gh-pages'
     branches-ignore:
       - 'master'
       - 'gh-pages'
 
-    # Trigger the workflow if it's been manually activated from the
-    # Actions tab
-    workflow_dispatch:
+  # Trigger the workflow if it's been manually activated from the Actions tab
+  workflow_dispatch:
 
 env:
   GITHUB_COMMITISH: ${{ github.ref_name }}
