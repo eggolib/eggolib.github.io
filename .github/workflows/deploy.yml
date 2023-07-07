@@ -1,0 +1,50 @@
+name: Deploy version
+
+on:
+  push:
+
+    # Trigger the workflow if any pushes have been made to branches
+    # other than these ones
+    branches-ignore:
+      - 'master'
+      - 'gh-pages'
+
+    # Trigger the workflow if it's been manually activated from the
+    # Actions tab
+    workflow_dispatch:
+
+env:
+  GITHUB_COMMITISH: ${{ github.ref_name }}
+
+jobs:
+  deploy:
+    name: Deploy version
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ 3.10.5 ]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: x64
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: Install Python dependencies
+        run: python3 -m pip install r ./requirements.txt
+
+      - name: Configure Git user
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Deploy version
+        run: |
+          git pull
+          mike deploy --push $GITHUB_COMMITISH
