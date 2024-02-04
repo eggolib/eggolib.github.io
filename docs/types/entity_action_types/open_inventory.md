@@ -13,10 +13,6 @@ Opens an inventory.
 
 Type ID: `eggolib:open_inventory`
 
-!!! caution
-
-    Currently, this entity action type cannot open the inventory of the player that invoked the action.
-
 
 ### Fields
 
